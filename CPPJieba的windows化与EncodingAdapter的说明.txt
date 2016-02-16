@@ -1,0 +1,79 @@
+CPPJieba的windows化与EncodingAdapter的说明
+
+一、目前的结果
+1.于我个人而言，弄清楚了Ansi、GB2312、GBK、GB18030、Unicode和UTF8之间的恩怨情仇，也大致了解了本地代码页、源码字符集和执行字符集对程序运行的影响，所以接下来可能遇到的有关文件编码的问题应该都能得到解决了。
+2.于程序而言，目前在保留了CPPJieba原工程以UTF8为主要编码的风格的情况下，增加了用于适配中文版windows的EncodingAdapter模块，用以实现程序内UTF8运行环境与windows系统GBK运行环境的适配。换句话说，可以正常进行文件读写和屏幕输出了。
+3.未解决的问题：
+3.1.仍无法在Debug模式下进行编译。由于在C++标准中，宽字符字符串应该用wstring进行声明，但CPPJieba整个工程都使用的是string，所以导致在STL对string的内容进行校验时发现负值（UFT8编码的某些位可能为负值），所以会发生assertion失败的情况。目前尝试了在编译选项中添加/NDEBUG命令和在源代码中添加#define __stl_assert(expr)语句，都无法消除stl自带assert的影响，所以目前只能在release模式下进行编译，可能会对调试工作带来一定困难。
+3.2.EncodingAdapter着重解决的是UTF8和GBK编码之间的识别与转换，因此若出现更为复杂的工程环境，如繁体的BIG5或其他国家的语言，可能会导致不可预知的结果（基本上就是乱码了）。但是只要通过人工对语料进行转码，UTF8是可以胜任所有任务的。
+
+二、一些说明
+1.CPPJieba原生是支持GBK的。但是由于所提供的字典都是UTF8的，而且考虑到UTF8的通用性，我坚持在CPPJieba模块内部使用UTF8编码的运行模式。作者也提到了GBK编码的模式未进行严格的测试，建议使用UTF8编码。
+2.EncodingAdapter内部的几个核心函数修改于网络上公开的代码。
+http://blog.csdn.net/p569354158/article/details/6567175
+http://blog.csdn.net/fjye/article/details/1501442
+
+三、使用说明
+（建议先阅读 四、原理说明 ）
+1.EncodingAdapter为一个类，目前其内部所有成员函数均为静态成员函数，以折衷用户使用的便利和添加后续功能的可能。
+2.EncodingAdapter的所有成员函数目前都声明为public，但是只建议使用UTF8ToGBK、GBKToUTF8、SmartToGBK和SmartToUTF8，其中更推荐使用UTF8ToGBK、GBKToUTF8。因为有关UFT8的识别目前仍无法保证百分之百准确。
+3.这四个函数的输入都是string类型的变量，返回值为相关的类型。其中UTF8ToGBK、GBKToUTF8是利用windows的api实现的，基本可以保证是准确的。但是SmartToGBK和SmartToUTF8是针对无法自主确定文件编码的用户开发的（也是占用了我最多开发时间的部分），无论输入的字符串的编码是什么，都保证返回的是相应的编码的字符串。判定算法在IsTextUTF8中。这个算法仍然无法避免某些识别错误，如“联通”。（有关“联通”的bug会在 四、原理说明 中提及）
+4.EncodingAdapter目前只针对UTF8和GBK编码进行适配，CPPJieba内部的TransCode模块实现了UTF8和Unicode的转换。
+5.为了简便，我在 源.cpp 中定义了四个宏，顾名思义：
+#define U2G EncodingAdapter::UTF8ToGBK
+#define G2U EncodingAdapter::GBKToUTF8
+#define S2G EncodingAdapter::SmartToGBK
+#define S2U EncodingAdapter::SmartToUTF8
+6.在本工程中，UTF8和GBK的使用推荐规则如下：
+6.1.任何与windows进行交互的部分，如文件名、屏幕输出都使用GBK编码，如：
+ifstream fin(S2G("关于语言信息处理技术的展望.txt"));
+cout << EncodingAdapter::SmartToGBK(join(words.begin(), words.end(), "/")) << endl;
+6.2.任何在CPPJieba内部用到的string，都要使用UTF8编码，如：
+CppJieba::Application app("dict/jieba.dict.utf8",
+		"dict/hmm_model.utf8",
+		"dict/user.dict.utf8",
+		"dict/idf.utf8",
+		"dict/stop_words.utf8");
+app.cut(G2U(s), words);
+6.3.任何需要对单个文字进行处理的部分，建议用Unicode编码。但是目前我还没完全读懂wuyanyi09写的Limonp库，所以有关CPPJieba内部的编码的部分对我来说仍然是黑箱。
+7.对于无法熟练运用两种编码的用户，总结起来是这样的：在屏幕输出的字符串和文件名字符串使用S2G进行转换，在所有写入文件和向CPPJieba的函数如cut、tokenize传参数时的源字符串使用S2U进行转换。
+
+四、原理说明
+1.有关Ansi、GB2312、GBK、GB18030、Unicode和UTF8的介绍。
+推荐阅读http://gjican.iteye.com/blog/1028003，里面对各种编码的区别讲的很好。
+总结起来如下：
+1.1.Ubuntu环境是全UTF8编码的，windows环境是GBK编码的。
+1.2.Ansi、GB2312、GBK、GB18030可以看做是相同的编码，UTF8是与之完全不同的编码，而且虽然和Unicode同源，仍有巨大差异。
+1.3.UTF8编码的文件分有BOM和无BOM的，其中无BOM的与GB系列编码的文件通过程序无法准确区分。
+1.4.在windows环境下，文件名是用GBK编码的，而且默认的命令提示符是不支持UTF8编码的。（这是我们遇到的问题的主要原因。）
+2.有关源码字符集和执行字符集的介绍。
+这部分的介绍比较少，可以参考如下几个文章和实验：
+http://blog.csdn.net/dbzhang800/article/details/7540905，这篇讲的比较简单，不过基本的知识都涵盖了。
+http://www.cnblogs.com/zyl910/archive/2012/07/26/cfile_utf8.html，这篇的实验很详尽，但是我都没把它读完……而且没涉及VS2013的情况（因为文章是2012年的）
+总结起来如下：
+2.1.系统环境、源码字符集和执行字符集是不同的，这在跨平台项目中会更为凸显。在我们的工程中暂时只需要考虑适配问题。
+2.2.[本人吐槽]windows下python中的编码问题更讨厌，会直接导致程序的退出。所以在用到字符串的时候一定要用try exception来保证一个运行了几天的程序不会因为中间一个编码问题直接崩溃T_T
+3.问题的出现与解决
+3.1.最初程序根本无法编译通过，但都是些类似初始化赋值的小问题，改一改就好了。
+3.2.接着是无法运行，如上文所说，是STL的assert机制导致的，目前仍未完美解决。
+3.3.运行demo，得到的输出是乱码。这部分包含了两个问题。
+3.3.1命令行输出问题。在最初的版本没有解决，目前的版本使用EncodingAdapter解决屏幕输出问题。
+3.3.2执行字符集问题。如介绍中所说，由于ubuntu环境与windows环境的差异，移植后的CPPJieba仍然在UTF8环境下运行，导致了一些如size等函数的差错。在最初的版本得到了解决，所以文件输出是正常的。
+3.4.施文娴师姐提到的无法正确打开文件的问题。这部分也是两个问题。
+3.4.1文件本身的编码问题。我们下载和创建的文件大多是GBK编码的，所以需要对不同的编码进行适配。
+3.4.2文件名的编码问题。在设置了执行字符集为UTF8之后，这行代码
+ifstream fin("关于语言信息处理技术的展望.txt");
+中的文件名变成了UTF8编码，所以在目录中会找不到输入文件，这也是为什么师姐在运行后，输出文件只有一个空行/x。
+这是通过如下代码发现的
+if (!fin) cout << "error";
+然后我在创建了这个名字的文件后在同一目录下发现了一个文件名为乱码的文件，所以意识到了这个问题。在把文件名转变成GBK编码后问题得到了解决。
+
+五、补充说明
+1.目前Github上有一个uchardet项目，对文件编码的识别更为全面和准确，考虑到项目的复杂度暂时没有加入。但在这个方面是可以用这个方案解决的。
+2.重要的事要再说一遍。在能够明确清楚自己需要从哪种编码转换为哪种编码的情况下，请尽量明确指出使用的转换函数，而不是使用Smart系列的函数。
+3.实际上我还有一个去年写的更完整的debug_func的库，里面有更多有关 四、原理说明 中 3.4.2项 里的有效性检验。我很推荐在写代码的时候插入适当的调试信息。
+
+六、环境说明
+1.强烈建议在本工程的基础上进行后续开发与修改，因为我也不能保证是否修改过默认的工程参数。
+2.开发环境为VS Professional 2013 Update4，.NET Framework 4.5.51650，Windows 8.1 企业版
+3.项目属性中为使用标准Windows库、使用UNICODE字符集与将WChar_t视为内置类型（都是默认设置）。

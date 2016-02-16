@@ -1,0 +1,46 @@
+POS系列模型的实现相关
+
+如邮件所述，CPP版本的Jieba在词性标注（下简称POSTAG）模块与python版本有较大差异，其主要表现为python版本在分词的同时获取词性，且用到的HMM模型与单纯的分词用到的HMM模型是不同的。然而，CPP版本的POSTAG过程是在分词的基础之上，对所分得的词在词典中查询其词性并返回，根本没有用到pos_dict文件夹中的数据。所以两个版本的分词有巨大差异。
+
+这个版本对原有的工程有比较大的改动，请使用者详细阅读本篇说明后再使用。
+
+1.工程目录的修改
+将新添加的代码都放入了myExt文件夹中，尽量不修改原有工程的代码（但是对于几段主要代码还是进行了修改）。
+
+2.EncodingAdapter的改进
+增加了流操作符对字符串的重载。当EncodingAdapter::UseSmartFlowOp为true时，对标准流的输出行为进行了修改，使其向屏幕输出GBK编码的字符。即不需要在输出时判断字符串的编码。
+增加了从Unicode向UTF8转换的函数。其实是对原工程中TransCode::encode()的再次封装。我的主要目的是让使用者尽量减少对原作者的代码的学习成本。
+
+3.【重点】POS系列模型
+这是这个版本的主要改动。如上所述，原有的PosTagger是在Segment的基础上增加了查询词性的功能，其模型与分词是共用的。我在myExt中添加了四个文件，PosHMMModel, PosHMMSegment, PosMPSegment和PosMixSegment，重新实现了几个相关的函数，将PosTagger中的MixSegment修改为了PosMixSegment，使POSTAG的行为与原来不同。具体改动如下：
+3.1 Application的构造函数
+增加了一个参数，为pos_dict的目录路径
+3.2 PosTagger的实现
+在PosTagger中添加了一个POSMIXSEG宏，在该宏没有被定义的情况下，PosTagger的行为与原版相同（此举主要是在我改过的模型出现一些问题的情况下可以快速恢复到原来的模型，也是为了对改动前后的行为进行比较）。在POSMIXSEG被定义的情况下，有如下改动：
+3.2.1 PosTagger的构造函数
+增加了一个接受const DictTrie* dictTrie, const string& hmmFolderPath两个参数的构造函数，用于使用pos_dict文件夹中的数据构造HMM模型。
+3.2.2 tag函数的行为
+原有的tag函数是先分词，再查词性。修改后的tag函数会优先选择由HMM得到的词性。【说明一】
+3.3 PosMixSegment
+将混合模型中的MPSegment和HMMSegment修改为PosMPSegment和PosHMMSegment。
+3.4 PosMPSegment
+暂时没做修改，日后若需要对POSTAG的MP模型进行修改可以在此处进行。
+3.5 PosHMMSegment
+将模型从HMMModel修改为PosHMMModel，重新实现了Viterbi算法。【说明二】
+3.6 PosModel
+修改了内部的参数和LoadModel函数，用以从pos_dict文件夹获取相关数据。
+
+4.使用说明
+实际上，从使用者的角度，只要修改Application的声明（即添加一个pos_dict文件夹的路径）即可正常使用。所有的对外接口没有改变，只是需要注意如下几点：
+4.1 保证使用的是PosMixSegment
+在PosTagger.hpp中，要添加#define POSMIXSEG的定义。
+4.2 注意只有词性标注的混合模型被实现了
+实际上，理论上PosTagger的所有功能应该都是正常的，但是由于我修改时重点关注的是其混合模型，没有对其他功能进行详细的验证，所以推荐只使用Application的tag函数，并以其默认参数进行工作。
+另外，这句话的另一层含义是我没有对分词部分做任何修改。但是，根据比较，CPP版本的分词部分和python版本的分词部分行为已经很接近了。
+4.3 现在Viterbi的算法的性能还能进一步提高。比如我根本没有用到char_state_tab中的信息，这个应该可以剪掉很大一部分枝，因为一个汉字能对应的隐序列状态其实很有限，目前搜索时还会搜索整个4*64=256个状态。
+4.4 目前的CPP版本的POSTAG和python版本仍有一些差异，我目前的推测是混合模型的策略略有不同。但是在我修改之后出现了一些奇怪的bug，于是我又还原回了以前的版本。总体上说，两个版本的行为已经很接近了。
+
+【说明一】
+我原本想设计成同时返回分词结果和词性，但是由于这几个模型都是基于基类ISegment和SegmentBase的，修改起来成本很大（实际上是我尝试修改了，然后程序崩得一塌糊涂），所以我在尽量保持了原有接口的情况下实现了这个功能。具体实现是在HMM分词的结果序列中增加词性信息。举个例子，本来的"电脑"会变成两个项"by hmm:n", "电脑"，于是我就可以在tag函数中得到这一信息，从而选择词性n，而不是在dictTrie中查询"电脑"的词性。
+【说明二】
+分词部分的HMM模型的隐序列状态只有B, E, M, S四个，而python版本中的POSTAG的HMM模型的隐序列状态是B, E, M, S和64个词性的笛卡尔积，所以一共有256个状态。在新的PosHMMSegment中，我实现了这个256个隐序列状态Viterbi算法，从而得到了更精确的分词和词性标注结果。

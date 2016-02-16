@@ -1,0 +1,649 @@
+main/eng _/x part/eng :/x
+国家自然科学基金/nt 申请书/nr 2015/m 版/n
+报/n
+告/v
+正/d
+文/ng
+1/n ./x
+立项/b 依据/p 与/p 研究/n 内容/n （/x 1/n ）/x 项目/n 的/uj 立项/b 依据/p 。/x （/x 研究/n 意义/n 、/x 国内外/s 研究/n 现状及/n 发展/vn 动态分析/n ，/x 需/v 结合/v 科学研究/n 发展/vn 趋势/n 来/v 论述/v 科学/n 意义/n ；/x 或/x 结合/v 国民经济/n 和/c 社会/n 发展/vn 中/f 迫切需要/n 解决/v 的/uj 关键/n 科技/n 问题/n 来/v 论述/v 其/r 应用/n 前景/n 。/x 附/v 主要/b 参考/v 文献/n 目录/n ）/x 1/n ./x 1/n
+研究/n 意义/n
+许多天/m 体内/n 部/q 都/d 具有/v 磁场/n ，/x 如/v 和/c 我们/r 生活/vn 朝夕/n 相关/n 的/uj 地球/n 、/x 太阳/ns 和/c 月球/n 等/u 。/x 动/v 加剧/v 是/v 暗示/v 新/a 一个/m 太阳活动/n 周期/n 开始/v 的/uj 信号/n 。/x 星体/n 内部/f 这种/r 磁场/n 的/uj 产生/n 和/c 维系/n 过程/n 一直/d 是/v 许多/m 天体/n 物理学家/n 和/c 计算数学/n 工作者/n 的/uj 热点/n 研究/n 方向/n 之一/r ，/x 而/c 磁流体/n 模型/n （/x magneto/eng -/x hydrodynamic/eng dynamo/eng model/eng ）/x 是/x 描述/v 这些/r 天体/n 内部/f 磁场/n 活动/n 的/uj 有利/a 工具/n 之一/r
+(/x [/x 11/m ,/x 14/m ]/x )/x 。/x 研究/n 表明/v ，/x 地球/n 内部/f 磁场/n 的/uj 变化/n 可/v 导致/v 人体/n 淋巴/n 染色体/n 的/uj 畸变/n ，/x 磁场/n 变化/n 的/uj 速度/n 影响/n 染色体/n 畸变/n 的/uj 频率/n 和/c 细胞分裂/n 过程/n 中/f 物质/n 的/uj 交换/n ，/x 甚至/d 影响/n
+DNA/eng 的/uj 合成/n 。/x 位于/v 太阳/ns 表面/n 之下/f 的/uj 内部/f 磁场/n 可以/c 影响/n 太阳黑子/n 磁场/n 的/uj 形成/n ，/x 太阳黑子/n 磁场/n 活/n NSFC/eng 2015/m
+在/p 传统/n 的/uj 研究/n 中/f ，/x 通过/p 计算机模拟/n 的/uj 磁流体/n 模型/n 大都/ns 是/v 确定性/n 的/uj ，/x 即/v 不/d 含有/v 随机因素/n 。/x 然而/c 在/p 实际/n 问题/n 中/f ，/x 地球/n 三个/m 组成部分/l （/x 地核/n 、/x 地幔/n 和/c 地壳/n ）/x 的/x 磁/x 扩散系数/n 是/v 不同/a 的/uj ，/x 且/c 在/p 同/p 一层/m 不是/c 单一/b 确定/v 的/uj ，/x 不同/a 的/uj 流体/n 或/c 岩石/n 都/d 会/v 导致/v 磁/ng 扩散系数/n 的/uj 随机性/n 。/x 磁流体/n 模型/n 中/f 的/uj 外力/n 项/m 通常/d 也/d 不是/c 给定/v 的/uj ，/x 而是/c 服从/v 某种/r 概率分布/n 的/uj ，/x 如科/r 里奥/nrt 力/n
+(/x Coriolis/eng forces/eng )/x 。/x 当/p 这些/r 不确定因素/n 积累/v 到/v 一定/d 程度/n 时/ng ，/x 我们/r 不能/v 再/d 忽略/d 随机因素/n ，/x 随机/n 磁流体/n 模型/n 便是/v 一个/m 较好/a 的/uj 工具/n ，/x 它/r 能够/v 更/d 准确/a 地/uv 描述/v 天体/n 内部/f 的/uj 磁流体/n 现象/n 。/x 对/p 这些/r 内部/f 磁场/n 活动/n 的/uj 随机/n 描述/v 和/c 数值模拟/n ，/x 可以/c 使/v 人们/n 更/d 清楚/a 地/uv 了解/v 天体/n 内部结构/n ，/x 解释/n 一些/m 客观/n 自然现象/n ，/x 预测/n 某些/r 自然灾害/n ，/x 如/v 预测/n 太阳黑子/n 活动/n 周期/n 、/x 太阳风暴/n 等/u ，/x 从而/c 减小/v 灾难/n 的/uj 损失/n 等/u 。/x 1/n ./x 2/x
+国内外/s 研究/n 现状及/n 分析/n 1946/m
+年/m 左右/m ，/x 物理学家/n 就/d 用/p 确定性/n 磁流体/n 模型/n 来/v 描述/v 天体/n 内部/f 的/uj 磁场/n 运动/n (/x [/x 11/m ]/x )/x ，/x 数学家/n 在此基础上/n 利用/n 带/v 球谐函数/n 的/uj 谱方法/n 求解/n 磁流体/n 模型/n (/x [/x 9/x ]/x )/x 。/x 该/r 算法/n 中/f
+Legendre/eng 变换/n 通常/d 比较/d 耗时/n ，/x 从而/c 在/p 整体/n 求解/n 时/ng 限制/n 了/ul 谱方法/n 的/uj 优越性/b ，/x 特别/d 是/v 当/p 处理/n 变/v 系数/n 问题/n 时/ng ，/x 这种/r 劣势/n 尤为/d 突出/v 。/x 2001/m
+年/m ，/x Chan/eng 等/u 人/n 利用/n 有限元方法/n 处理/n 了/ul 磁流体/n 模型/n ，/x 并/c 给出/v 了/ul 相应/v 的/uj 数值分析/n (/x [/x 6/x ]/x )/x 。/x 2006/m
+年/m ，/x Chan/eng 等/u 人/n 又/d 提出/v 了/ul 磁流体/n 模型/n 问题/n 的/uj 全/a 离散/n 有限元/n 格式/n ，/x 给出/v 了/ul 数值方法/n 的/uj 收敛性/n 和/c 稳定性分析/n ，/x 并/c 模拟/n 了/ul 太阳/ns 在/p 一个/m 周期/n 内/f 磁场/n 的/uj 变化/n (/x [/x 5/x ]/x )/x 。/x 在/p 过去/t 的/uj 十几年/m 中/f ，/x 随着/p 计算机/n 硬件/n 技术/n 以及/c 相应/v 算法/n 的/uj 快速/n 发展/vn ，/x 人们/n 对/p 随机偏微分方程/n （/x SPDE/eng ）/x 提出/v 了/ul 一些/m 高效/n 的/uj 算法/n 。/x 一般说来/l ，/x 这些/r 数值方法/n 大致/d 可以/c 分为/v 两类/m :/x
+确定性/n 逼近方法/n 和/c 蒙特卡洛/n （/x MC/eng ）/x 类/x 方法/n 。/x Ghanem/eng 等/u 人/n 于/p
+1991/m
+年/m 利用/n
+Karhunen/eng -/x Loeve/eng (/x KL/eng )/x
+展开/n ,/x
+对/p 随机系数/n 的/uj 椭圆/n 问题/n 提出/v 了/ul 随机有限元/n 方法/n
+(/x [/x 10/m ]/x )/x 。/x 但/c 该/r 方法/n 形成/n 的/uj 未知数/i 太/d 多/m ，/x 不利于/v 数值/n 求解/n 。/x Babuska/eng 等/u 人/n
+国家自然科学基金/nt 申请书/nr 2015/m 版/n
+在/p [/x 2/x ]/x 中/f 指出/v ，/x 随机系数/n 的/uj 期望/v 、/x 方差/n 或者/c 其它/r 物理量/n 满足/v 一定/d 条件/n 时/ng ，/x 可以/c 证明/n 原/b 随机/n 问题/n 可以/c 转化/v 成为/v 一个/m 带/v 大量/n 随机参数/n 的/uj 确定性/n 问题/n 。/x 他们/r 给出/v 了/ul 误差分析/n ，/x 并/c 指出/v 解/v 关于/p 这些/r 随机参数/n 是/v 解析/n 的/uj 。/x 在此基础上/n ，/x 人们/n 改进/n 了/ul 一些/m 传统/n 数值方法/n ，/x 如/v 随机/n
+Garlerkin/eng 有限元/n (/x [/x 2/x ]/x )/x ，/x 摄动/v 方法/n (/x [/x 4/x ,/x 12/m ]/x )/x ，/x 稀疏/n 网格/n 技巧/n (/x [/x 19/m ]/x )/x ，/x 广义/ns 多项式/n 混沌/n (/x gPC/eng ，/x [/x 22/m ]/x )/x
+等/u 算法/n 来/v 处理/n 该/r 确定性/n 问题/n ，/x 这些/r 方法/n 都/d 属于/v 确定性/n 逼近方法/n 。/x 蒙特卡洛方法/n 通常/d 利用/n 一些/m 经验/n 分布/n 公式/n ，/x 生成/n 随机系数/n 和/c 外力/n 的/uj 样本/n ，/x 对于/p 每个/r 样本/n ，/x 只/d 需/v 求解/n 一个/m 确定性/n 偏微分方程/n 。/x 蒙特卡洛方法/n 的/uj 特点/n 是/v 易于/v 实现/n ，/x 与/p 维数/n 无关/v ，/x 但/c 收敛速度/n 非常/d 慢/x （/x 相对/d 于/p 样本/n 数/m 为/p
+1/n //x 2/x
+阶/ng )/x 。/x 人们/n 在此基础上/n 提出/v 了拟/v 蒙特卡洛方法/n ，/x 它/r 的/uj 收敛速度/n 提高/n 为/p
+1/n
+阶/ng (/x [/x 3/x ]/x )/x 。/x 最近/f ，/x Schwab/eng 等/u 教授/n 提出/v 了/ul 多重/m 蒙特卡洛方法/n (/x [/x 1/n ]/x )/x ，/x 平衡/n 了/ul 样本/n 误差/n 和/c 空间/n 物理/n 误差/n ，/x 使得/v 在/p 保证/v 整体/n 精度/n 的/uj 同时/c ，/x 极大/a 减少/v 样本/n 数/m ，/x 从而/c 加速/n 整个/b 求解/n 过程/n 。/x 对于/p 确定性/n
+Maxwell/eng 类型/n 的/uj 方程/n ，/x 已有/v 很多/m 完善/v 的/uj 理论/n 和/c 数值方法/n ，/x 例如/v [/x 8/x ，/x 13/n ，/x 15/m
+]/x 等/u 文献/n 。/x 但/c 对于/p 单样本/n 的/uj 确定性/n 磁流体/n 模型/n ，/x 由于/c 方程/n 具有/v 强烈/a 的/uj 非线性/n ，/x 将/d 导致/v 解/v 本身/r 或其/c 导数/n 具有/v 强烈/a 的/uj 震荡/v 或/c 跳跃/n 。/x 用/p 通常/d 的/uj 有限元方法/n 求解/n 会/v 造成/v 自由度/n 过/ug 多/m ，/x 而/c 用/p 自适应/n 有限元/n 方法/n 来/v 处理/n 时/ng ，/x 网格生成/n 往往/t 比较复杂/l ，/x 不/d 易于/v 实现/n 。/x 最近/f ，/x 王军平/nr 教授/n 等/u 人/n 提出/v 了/ul 一种/m 处理/n 方程/n 解/v 具有/v 间断/d 或/c 剧烈/a 震荡/v 的/uj 数值方法/n ，/x 弱/a
+Garlerkin/eng 方法/n (/x [/x 17/m ，/x 21/m ]/x )/x 。/x 该/r 方法/n 在/p 局部/n 提出/v 离散/n 弱/a 梯度/n 的/uj 概念/n ，/x 并/c 引入/v 数值/n 稳定/n 子/ng ，/x 从而/c 给出/v 相应/v 的/uj 弱/a
+Garlerkin/eng 变分/n 形式/n 。/x 王/nr 教授/n 等/u 人/n 用/p 该/r 方法/n 处理/n 了/ul 二阶/n 椭圆/n 问题/n ，/x 并/c 给出/v 了/ul 和/c 传统/n 有限元/n 一致/n 的/uj 收敛/n 阶/ng (/x [/x 21/m ]/x )/x 。/x 由于/c 该/r 方法/n 局部/n 引入/v 的/uj 自由度/n 较/d 多/m ，/x 从而/c 导致/v 整体/n 刚度/n 矩阵/n 的/uj 自由度/n 远远/d 大于/d 传统/n 有限元方法/n ，/x 不利于/v 实际/n 计算/n 。/x 王/nr 教授/n 等/u 人/n 利用/n
+Schur/eng complement/eng 形式/n ，/x 提出/v 杂交/n 弱/a
+Garlerkin/eng 方法/n ，/x 将/d 局部/n 网/n 格/n 内部/f 的/uj 自由度/n 转换/n 到/v 局部/n 边界/n 上/f ，/x 形成/n 由/p 局部/n 边界/n 未知量/n 组成/n 的/uj 整体/n 刚度/n 矩阵/n ，/x 从而/c 减少/v 了/ul 计算量/n (/x [/x 17/m ]/x )/x 。/x Chen/eng 等/u 人/n 在此基础上/n ，/x 利用/n 后验/n 误差估计/n ，/x 提出/v 了/ul 自适应/n 弱/a
+Garlerkin/eng 方法/n ，/x 并/c 处理/n 了/ul 二阶/n 椭圆/n 问题/n ，/x 进一步/d 加速/n 了/ul 求解/n 过程/n 。/x 这样/r ，/x 在/p 计算/n 解/v 具有/v 间断/d 或/c 剧烈/a 震荡/v 的/uj 偏微分方程/n 时/ng ，/x Chen/eng 等/u 人/n 的/uj 工作/vn 使得/v 弱/a
+Garlerkin/eng 方法/n 真正/d 成为/v 一种/m 高效算法/n (/x [/x 7/x ]/x )/x 。/x 人们/n 在此基础上/n ，/x 将/d 弱/a
+Garlerkin/eng 方法/n 运用/vn 到/v 各种各样/l 的/uj 偏微分方程/n 中/f (/x [/x 16/m ,/x 18/m ]/x )/x 。/x
+NSFC/eng 2015/m
+综上所述/c ，/x 随机/n 磁流体/n 模型/n 方面/n 的/uj 工作/vn 并/c 不多见/l 。/x 在/p 本/r 项目/n 中/f ，/x 我们/r 拟/v 基于/p 弱/a
+Galerkin/eng 方法/n ，/x 多重/m 蒙特卡洛方法/n ，/x Chebyshev/eng 多项式/n 逼近/n (/x [/x 20/m ]/x )/x 等/u 技巧/n ，/x 研究/n 随机/n 磁流体/n 模型/n 问题/n 的/uj 数值方法/n 。/x 我们/r 在/p 这些/r 方面/n 已/d 初步/d 做/v 了/ul 一些/m 前期工作/l ：/x 针对/p 确定性/n 磁流体/n 模型/n ，/x 我们/r 提出/v 了/ul 在/p 时间/n 方向/n 采取/v 半/m 隐/v 半/m 显/v 格式/n ，/x 空间/n 方向/n 采用/v 球谐函数/n 展开/n 的/uj 全/a 离散/n 格式/n ，/x 初步/d 证明/n 了/ul 该/r 数值/n 格式/n 的/uj 稳定性/n 和/c 收敛性/n ；/x 利用/n 多重/m 蒙特卡洛方法/n 处理/n 了/ul 系数/n 带跳/v 的/uj 随机/n 椭圆/n 问题/n ，/x 给出/v 了/ul 该/r 方法/n 的/uj 收敛性证明/n ，/x 并/c 验证/n 了/ul 该/r 方法/n 优于/v 传统/n 的/uj 拟/v 蒙特卡洛方法/n 。/x 这些/r 前期/f 准备/v 为/p 本/r 项目/n 的/uj 顺利完成/l ，/x 提供/v 了/ul 成熟/a 有效/a 的/uj 程序/n 和/c 理论/n 保障/n 。/x 1/n ./x 3/x
+主要/b 参考/v 文献/n ：/x [/x 1/n ]/x
+Barth/eng A/x ./x ,/x
+Schwab/eng C/x ./x ,/x
+Zollinger/eng N/x ./x ,/x
+Multi/eng -/x level/eng Monte/eng Carlo/eng finite/eng elementmethod/eng for/eng elliptic/eng PDE/eng ’/x s/x
+with/eng stochastic/eng coefficients/eng ./x ,/x
+Numer/eng ./x
+Math/eng ./x ,/x
+2011/m ,/x
+1/n :/x 123/m -/x 161/m ./x
+[/x 2/x ]/x
+Babuska/eng I/x ./x ,/x
+Tempone/eng R/x ./x ,/x
+Zouraris/eng G/x ./x
+E/x ./x ,/x
+Galerkin/eng finite/eng element/eng approximationsof/eng stochastic/eng elliptic/eng partial/eng differential/eng equations/eng ,/x
+SIAM/eng J/x
+Numer/eng ./x
+Anal/eng ./x ,/x
+2004/m ,/x
+国家自然科学基金/nt 申请书/nr 2015/m 版/n
+[/x 3/x ]/x
+Caflisch/eng R/x
+E/x ./x ,/x
+Monte/eng Carlo/eng and/eng quasi/eng -/x Monte/eng Carlo/eng methods/eng ,/x
+Acta/eng Numer/eng ./x ,/x
+1998/m ,/x 42/m :/x
+800/m -/x 825/m ./x
+7/x :/x
+1/n -/x 49/m ./x
+[/x 4/x ]/x
+Canuto/eng C/x ./x ,/x
+Kozubek/eng T/x ./x ,/x
+A/x
+fictitious/eng domain/eng approach/eng to/eng the/eng numerical/eng solution/eng ofpdes/eng in/eng stochastic/eng domains/eng ,/x
+Numer/eng ./x
+Math/eng ./x ,/x
+2007/m ,/x
+107/m :/x
+257/m -/x 293/m ./x [/x 5/x ]/x
+Chan/eng K/x ./x
+H/x ./x ,/x
+Zhang/eng K/x ./x ,/x
+Zou/eng J/x ./x ,/x
+Spherical/eng interface/n
+dynamos/eng :/x
+mathematical/eng theory/eng ,/x finite/eng element/eng approximation/eng ,/x
+and/eng application/eng ,/x
+SIAM/eng J/x ./x
+Numer/eng ./x
+Anal/eng ./x ,/x
+2006/m ,/x
+44/m :/x 1877/m -/x 1902/m ./x
+[/x 6/x ]/x
+Chan/eng K/x ./x
+H/x ./x ,/x
+Zhang/eng K/x ./x ,/x
+Zou/eng J/x ./x ,/x
+Schubert/eng G/x ./x ,/x
+A/x
+nonlinear/eng 3/x -/x D/x
+sphericalalpha/eng -/x square/eng dynamo/eng using/eng a/x
+finite/eng element/eng method/eng ,/x
+Phys/eng ./x
+Earth/eng Planet/eng ./x
+Int/eng ./x ,/x
+2001/m ,/x 128/m :/x
+35/m -/x 50/m ./x
+[/x 7/x ]/x
+Chen/eng L/x ./x ,/x
+Wang/eng J/x ./x ,/x
+Ye/eng X/x ./x ,/x
+A/x
+posteriori/eng error/eng estimates/eng for/eng weak/eng Galerkin/eng finiteelement/eng methods/eng for/eng second/eng order/eng elliptic/eng problems/eng ,/x
+J/x ./x
+Sci/eng ./x
+Comput/eng ./x ,/x
+2014/m ,/x
+59/m ,/x
+no/eng ./x 2/x :/x
+496/m -/x 511/m ./x
+[/x 8/x ]/x
+Chen/eng Z/x ./x ,/x
+Wang/eng L/x ./x ,/x
+Zheng/eng W/x ./x ,/x
+An/eng adaptive/eng multilevel/eng method/eng for/eng time/eng -/x harmonicMaxwell/eng equations/eng with/eng singularities/eng ,/x
+SIAM/eng J/x ./x
+Sci/eng ./x
+Comput/eng ./x ,/x
+2007/m ,/x
+29/m ,/x
+no/eng ./x 1/n :/x
+118/m -/x 138/m ./x
+[/x 9/x ]/x
+Glatzmaier/eng G/x ./x ,/x
+Roberts/eng P/x ./x ,/x
+A/x
+three/eng -/x dimensional/eng convective/eng dynamo/eng solution/eng withrotating/eng and/eng finitely/eng conducting/eng inner/eng core/eng and/eng mantle/eng ,/x
+Phys/eng ./x
+Earth/eng Planet/eng ./x
+Int/eng ./x ,/x 1995/m ,/x
+91/m :/x
+63/m -/x 75/m ./x
+[/x 10/m ]/x
+Ghanem/eng R/x ./x
+G/x ./x
+and/eng Spanos/eng P/x ./x
+D/x ./x ,/x
+Stochastic/eng finite/eng elements/eng :/x
+A/x
+spectral/eng approach/eng ./x NSFC/eng 2015/m
+[/x 12/m ]/x
+Harbrecht/eng H/x ./x ,/x
+Li/eng J/x ./x
+Z/x ./x ,/x
+First/eng order/eng second/eng moment/eng analysis/eng for/eng stochasticinterface/eng problems/eng based/eng on/eng low/eng -/x rank/eng approximation/eng ,/x
+ESAIM/eng Math/eng ./x
+ModelNumer/eng ./x
+Anal/eng ./x ,/x
+2013/m ,/x
+47/m :/x
+1533/m -/x 1552/m ./x [/x 13/n ]/x
+Hu/eng Q/x ./x ,/x
+Shu/eng S/x ./x ,/x
+Zou/eng J/x ./x ,/x
+A/x
+mortar/eng edge/eng element/eng method/eng with/eng nearly/eng optimalconvergence/eng for/eng three/eng -/x dimensional/eng Maxwell/eng '/x s/x
+equations/eng ,/x
+Math/eng ./x
+Comp/eng ./x ,/x
+2008/m ,/x
+77/m :/x 1333/m -/x 1353/m ./x
+[/x 14/m ]/x
+Jones/eng C/x ./x
+A/x ./x ,/x
+Planetary/eng magnetic/eng fields/eng and/eng fluid/eng dynamos/eng ./x
+In/eng Annual/eng review/eng of/eng [/x 11/m ]/x
+Hollerbach/eng R/x ./x ,/x
+On/eng the/eng theory/eng of/eng the/eng geodynamo/eng ,/x
+Phys/eng ./x
+Earth/eng Planet/eng ./x
+Int/eng ./x ,/x
+1996/m ,/x New/eng York/eng ,/x
+Springer/eng ,/x
+1991/m ./x 98/m ,/x
+no/eng ./x 3/x :/x
+163/m -/x 185/m ./x
+fluid/eng mechanics/eng ,/x
+2011/m :/x
+583/m -/x 614/m ./x
+Annual/eng Reviews/eng ,/x
+Palo/eng Alto/eng ,/x
+CA/eng ./x [/x 15/m ]/x
+Li/eng P/x ./x ,/x
+Zheng/eng W/x ./x ,/x
+An/eng H/x -/x ψ/x
+formulation/eng for/eng the/eng three/eng -/x dimensional/eng eddy/eng currentproblem/eng in/eng laminated/eng structures/eng ,/x
+J/x ./x
+Differential/eng Equations/eng ,/x
+2013/m ,/x
+254/m
+,/x
+no/eng ./x 8/x :/x
+3476/m -/x 3500/m ./x
+[/x 16/m ]/x
+Mu/eng ,/x
+L/x ./x ,/x
+Wang/eng ,/x
+J/x ./x ,/x
+Ye/eng X/x ./x ,/x
+A/x
+stable/eng numerical/eng algorithm/eng for/eng the/eng Brinkmanequations/eng by/eng weak/eng Galerkin/eng finite/eng element/eng methods/eng ,/x
+J/x ./x
+Comput/eng ./x
+Phys/eng ./x ,/x
+2014/m ,/x
+273/m :/x 327/m -/x 342/m ./x
+[/x 17/m ]/x
+Mu/eng ,/x
+L/x ./x ,/x
+Wang/eng ,/x
+J/x ./x ,/x
+Ye/eng ,/x
+X/x ./x ,/x
+A/x
+Hybridized/eng Formulation/eng for/eng Weak/eng Galerkin/eng FiniteElement/eng Methods/eng ,/x
+Archives/eng (/x online/eng )/x ./x [/x 18/m ]/x
+Mu/eng ,/x
+L/x ./x ,/x
+Wang/eng ,/x
+J/x ./x ,/x
+Wei/eng ,/x
+G/x ./x ,/x
+Ye/eng ,/x
+X/x ./x ,/x
+Zhao/eng ,/x
+S/x ./x ,/x
+Weak/eng Galerkin/eng methods/eng for/eng secondorder/eng elliptic/eng interface/n
+problems/eng ./x ,/x
+J/x ./x
+Comput/eng ./x
+Phys/eng ./x ,/x
+2013/m ,/x
+250/m :/x
+106/m -/x 125/m ./x [/x 19/m ]/x
+Smolyak/eng S/x ./x ,/x
+Quadrature/eng and/eng interpolation/eng formulas/eng for/eng tensor/eng products/eng of/eng certainclasses/eng of/eng functions/eng ,/x
+Dokl/eng ./x
+Akad/eng ./x
+Nauk/eng SSSR/eng ,/x
+1963/m ,/x
+4/x :/x
+240/m -/x 243/m ./x
+国家自然科学基金/nt 申请书/nr 2015/m 版/n
+[/x 20/m ]/x
+Shen/eng J/x ./x ,/x
+Tang/eng T/x ./x ,/x
+Wang/eng L/x ./x L/x ./x ,/x
+Spectral/eng Methods/eng :/x
+Algorithms/eng ,/x
+Analysis/n
+andApplications/eng ,/x
+volume/eng 41/m
+of/eng Springer/eng Series/eng in/eng Computational/eng Mathematics/eng ./x Springer/eng -/x Verlag/eng ,/x
+Berlin/eng ,/x
+Heidelberg/eng ,/x
+2011/m ./x [/x 21/m ]/x
+Wang/eng J/x ./x
+P/x ./x ,/x
+Ye/eng X/x ./x ,/x
+A/x
+weak/eng Galerkin/eng finite/eng element/eng method/eng for/eng second/eng -/x orderelliptic/eng problems/eng ,/x
+J/x ./x
+Comput/eng ./x
+Appl/eng ./x
+Math/eng ./x ,/x
+2013/m ,/x
+241/m :/x
+103/m -/x 115/m ./x [/x 22/m ]/x
+Xiu/eng D/x ./x
+B/x ./x ,/x
+Karniadakis/eng G/x ./x
+E/x ./x ,/x
+Modeling/eng uncertainty/eng in/eng flowsimulations/eng via/eng generalized/eng polynomial/eng chaos/eng ,/x
+J/x ./x
+Comput/eng ./x
+Phys/eng ./x ,/x
+2003/m ,/x
+187/m :/x
+137/m -/x 167/m ./x [/x 23/m ]/x
+Xiu/eng D/x ./x ,/x
+Shen/eng J/x ./x ,/x
+Efficient/eng stochastic/eng Galerkin/eng methods/eng for/eng random/eng diffusionequations/eng ,/x
+J/x ./x
+Comput/eng ./x
+Phys/eng ./x ,/x
+2009/m ,/x
+228/m
+,/x
+no/eng ./x
+2/x :/x
+266/m -/x 281/m ./x [/x 24/m ]/x
+Zhou/eng T/x ./x ,/x
+Narayan/eng A/x ./x ,/x
+Xu/eng Z/x ./x ,/x
+Multivariate/eng discrete/eng least/eng -/x squares/eng approximationswith/eng a/x
+new/eng type/eng of/eng collocation/eng grid/eng ,/x
+SIAM/eng J/x ./x
+Sci/eng ./x
+Comput/eng ./x ,/x
+2014/m ,/x
+36/m ,/x
+no/eng ./x
+5/x :/x A2401/eng -/x A2422/eng ./x （/x 2/x ）/x 项目/n 的/uj 研究/n 内容/n 、/x 研究/n 目标/n ,/x 以及/c 拟/v 解决/v 的/uj 关键/n 科学问题/n 。/x （/x 此/x 部分/n 为/p 重点/n 阐述/v 内容/n ）/x 在/x 处理/n 磁流体/n 模型/n 实际/n 问题/n 时/ng ，/x 天体/n 所在/b 的/uj 介质/n 通常/d 带有/v 杂质/n ，/x 外力/n 中/f 的/uj 科/n 里奥/nrt 力/n 也/d 不是/c 给定/v 的/uj ，/x 而是/c 服从/v 某种/r 概率分布/n 的/uj 。/x 这些/r 随机因素/n 给/p 磁流体/n 模型/n 实际/n 问题/n 数值/n 求解/n 带来/v 的/uj 影响/n 通常/d 是/v 不可/v 忽略/d 的/uj ，/x 故/c 我们/r 拟/v 在/p 本/r 项目/n 中/f 研究/n 处理/n 随机/n 磁流体/n 模型/n 的/uj 三个/m 具体/a 问题/n 。/x 2/x ./x 1/n
+研究/n 内容/n 本/r 项目/n 拟/v 研究/n 以下/f 球形/n 随机/n 磁流体/n 模型/n ：/x NSFC/eng 2015/m
+其中/r 研究/n 区域/n
+/x
+是/v 三维空间/n 中/f 的/uj 一个/m 球体/n ，/x 由/p 内核/n
+1/n /x
+、/x 对/x 流/n 区/n
+2/x /x
+和/c 外层/n 区域/n
+3/x /x 组成/n ，/x
+1/n /x
+和/c
+2/x /x
+为/p 各/r 层区/n 域间/n 的/uj 交/v 界面/n （/x 见/x 下/x 图/n ）/x ，/x B/x
+是/v 磁场/n ，/x /x 是/x 带/x 随机/n 的/uj 磁/ng 扩散系数/n ，/x 对/p 流/n 区/n 中/f 流体/n 速度场/n u/x
+为/p 已知/v 函数/n ，/x
+f/x
+表示/n 带/v 随机/n 的/uj 外力/n 项/m ，/x 3/x /x 2/x /x
+2/x /x
+1/n /x
+1/n /x
+它/r
+们/k
+都/d
+满/a
+足/a
+一/m
+定/v
+的/uj
+正/d
+则/d
+性/n
+条/q
+件/q
+；/x dynamo/eng 常数/n
+R/x /x 、/x 磁/x Reynolds/eng 数/m
+mR/eng 和/x /x 均/x 为/x 有/x 物理/n 意义/n 的/uj 常数/n 。/x 此外/c ，/x 本/r
+模/ng
+型/k
+还/d
+需/v
+满/a
+足/a B/x /x
+/x
+0/x /x
+，/x
+并/c
+在/p
+0/x /x /x /x
+/x
+/x
+/x 12/m (/x 0/x ,/x )/x T/x 上/f 满足/v 跳跃/n 条件/n ：/x [/x
+B/x
+n/x /x
+/x /x /x
+/x
+x/x (/x
+,/x )/x
+]/x
+0/x ,/x /x [/x B/x ]/x
+0./m /x
+国家自然科学基金/nt 申请书/nr 2015/m 版/n
+我们/r 将/d 从/p 三个/m 方面/n 进行/v 研究/n ：/x （/x i/n ）/x 弱/x
+Galerkin/eng 和半隐/nr 半/m 显/v 离散/n 不论是/c 确定性/n 逼近方法/n 或/c 蒙特卡洛/n 类/q 数值方法/n ，/x 我们/r 都/d 需要/v 计算/n 大量/n 单个/n 样本/n 的/uj 确定性/n 问题/n ，/x 以期/f 得到/v 原/b 问题/n 解/v 的/uj 期望/v 、/x 方差/n 等/u 物理/n 统计量/n ，/x 故/c 如何/r 快速/n 求解/n 单个/n 确定/v 的/uj 磁流体/n 方程/n 是/v 整个/b 计算/n 中/f 最/d 基本/n 的/uj 问题/n 。/x 由于/c 确定性/n 磁流体/n 模型/n 的/uj 非线性/n 会/v 导致/v 解/v 的/uj 剧烈/a 震荡/v 或/c 间断/d ，/x 通常/d 的/uj 数值算法/n 或者/c 需要/v 较细/a 的/uj 网格/n ，/x 或者/c 需要/v 后验/n 估计/n 以及/c 自适应技术/n ，/x 不/d 易于/v 实现/n 。/x 我们/r 将/d 采用/v 弱/a
+Galerkin/eng 方法/n 来/v 处理/n 物理空间/n ，/x 以/p 更好/d 地/uv 刻画/n 解/v 的/uj 不/d 光滑性/n 。/x 对于/p 时间/n 方向/n ，/x 若/c 采用/v 显式/ad 格式/n 通常/d 需要/v 满足/v
+CFL/eng 条件/n ，/x 步长/n 通常/d 不能/v 太大/j ，/x 造成/v 整体/n 计算量/n 过/x 大/x ；/x 若/x 采用/v 隐式/b 格式/n ，/x 步长/n 通常/d 可以/c 取得/v 较大/a ，/x 但是/c 在/p 一个/m 步长/n 时间/n 内/f ，/x 需要/v 用/p 牛顿法/n 等/u 迭代方法/n 求解/n 一个/m 非线性方程/n ，/x 而/c 该类/r 方法/n 往往/t 没有/v 全局收敛性/n ，/x 有/v 可能/v 造成/v 整体/n 算法/n 不/d 收敛/n 。/x 我们/r 将/d 采用/v [/x 23/m ]/x 中/f 类似/v 的/uj 半隐半/i 显/v 格式/n ，/x 在/p 保证/v 稳定性/n 的/uj 同时/c ，/x 加大/v 时间/n 步长/n ，/x 减少/v 时间/n 剖分/n ，/x 从而/c 减少/v 整体/n 求解/n 时间/n 。/x （/x ii/eng ）/x Chebyshev/eng 多项式/n 在/p 随机/n 方向/n 的/uj 逼近/n 在/p 用/p 确定性/n 逼近方法/n 处理/n 随机偏微分方程/n 时/ng ，/x 我们/r 将/d 沿袭/v
+Babuska/eng 在/p 处理/n 随机/n 椭圆/n 问题/n 时/ng 的/uj 手法/n （/x [/x 2/x ]/x ）/x ，/x 证明/n 原/b 随机/n 磁流体/n 模型/n 可以/c 转化/v 成为/v 一个/m 带/v 大量/n 随机参数/n 的/uj 确定性/n 问题/n 。/x 进一步/d ，/x 我们/r 将/d 证明/n 原/b 问题/n 的/uj 解/v 相对/d 于/p 这些/r 随机参数/n 是/v 解析/n 的/uj 。/x 在此基础上/n ，/x 我们/r 拟/v 采用/v
+Chebyshev/eng 多项式/n 空间/n 对/p 随机参数/n 空间/n 进行/v 逼近/n ，/x 从而/c 加速/n 求解/n 过程/n 。/x （/x iii/eng ）/x 多重/m 蒙特卡洛方法/n NSFC/eng 2015/m
+如果/c 直接/ad 采用/v 蒙特卡洛方法/n ，/x 虽然/c 其/r 收敛速度/n 与/p 磁流体/n 模型/n 问题/n 的/uj 随机/n 维数/n 无关/v ，/x 但其/c 收敛速度/n 为/p
+O/x (/x M/x -/x 1/n //x 2/x )/x ,/x
+其中/r
+M/x
+为/p 样本/n 的/uj 个数/n 。/x 若要/c 达到/v
+10/m -/x 3/x
+精度/n ，/x 我们/r 需要/v
+106/m
+个/m 样本/n ，/x 即/v 需要/v 求解/n
+106/m
+个/m 确定性/n 磁流体/n 模型/n 问题/n （/x 每个/r 子/ng 问题/n 都/d 是/v 空间/n 三维/n 、/x 时间/n 一维/m 的/uj 发展/vn 型/k 非线性方程/n ）/x ，/x 计算量/n 非常/d 大/a 。/x 对于/p 物理空间/n 和/c 随机/n 空间/n 耦合/n 的/uj 随机/n 磁流体/n 模型/n ，/x 我们/r 将/d 采用/v 多重/m 蒙特卡洛方法/n ，/x 使得/v 在/p 每/r 一层/m 上/f ，/x 蒙特卡洛/n 样本/n 数/m 与/p 相应/v 空间/n 尺度/n 的/uj 平方/q 成正比/nr ，/x 即/v 空间/n 尺度/n 越细/d ，/x 所需/n 样本/n 数/x 越/x 少/x ；/x 空间/n 尺度/n 越/d 粗/a ，/x 样本/n 数/m 越/d 多/m 。/x 这样/r 就/d 避免/v 了/ul 求解/n 大量/n 细/a 空间/n 尺度/n 的/uj 确定性/n 问题/n ，/x 从而/c 减少/v 计算量/n 。/x 2/x ./x 2/x
+研究/n 目标/n
+本/r 项目/n 拟/v 基于/p 弱/a
+Galerkin/eng 方法/n ，/x Chebyshev/eng 多项式/n 逼近/n 和/c 多重/m 蒙特卡洛方法/n 等/u 技巧/n ，/x 研究/n 带/v 随机/n 磁/ng 扩散系数/n 和/c 随机/n 外力/n 的/uj 磁流体/n 模型/n ，/x 提出/v 快速/n 且/c 高效求解/n 该/r 问题/n 的/uj 数值方法/n 。/x 我们/r 将/d 首先/d 给出/v 算法/n 的/uj 误差分析/n ，/x 然后/c 通过/p 对/p 几类/m 天体/n 模型/n 的/uj 模拟/n ，/x 验证/n 数值算法/n 的/uj 收敛速度/n 和/c 有效性/n 。/x 利用/n 已有/v 文献/n 数据/n ，/x 我们/r 将/d 比较/d 确定性/n 磁流体/n 模型/n 和/c 随机/n 磁流体/n 模型/n 的/uj 数值/n 结果/n ，/x 期望/v 能/v 更/d 准确/a 地/uv 描述/v 和/c 预测/n 天体/n 内部/f 的/uj 磁场/n 变化/n 和/c 自然灾害/n 。/x 2/x ./x 3/x
+拟/v 解决/v 的/uj 关键问题/n （/x i/n ）/x 处理/n 单个/b 样本/n 的/uj 确定性/n 磁流体/n 模型/n 时/ng ，/x 我们/r 将/d 采用/v 弱/a
+Galerkin/eng 方法/n ，/x 但/c 如何/r 利用/n 高斯/nr 公式/n 引入/v 弱/a 旋度/n 是/v 一个/m 关键性/n 的/uj 问题/n 。/x 另外/c ，/x 由于/c 弱/a
+Galerkin/eng 方法/n
+国家自然科学基金/nt 申请书/nr 2015/m 版/n
+自由度/n 较/d 多/m ，/x 如何/r 利用/n
+Schur/eng complement/eng 形式/n 将/d 局部/n 网/n 格/n 内部/f 自由度/n 转换/n 到/v 局部/n 边界/n ，/x 从而/c 减少/v 整体/n 自由度/n ，/x 这/r 也/d 是/v 一个/m 重要/a 问题/n 。/x （/x ii/eng ）/x 对于/p 单个/n 样本/n 的/uj 时间/n 方向/n ，/x 采用/v 半/m 隐/v 半/m 显/v 格式/n ，/x 可以/c 加快/v 单个/n 问题/n 的/uj 求解/n 。/x 但/c 在/p 用/p 确定性/n 逼近方法/n 处理/n 随机/n 磁流体/n 模型/n 时/ng ，/x 我们/r 需要/v 采用/v
+Chebyshev/eng 多项式/n 逼近/n 处理/n 随机/n 空间/n ，/x 得到/v 一个/m 耦合/n 的/uj 发展/vn 型/k 方程组/n 。/x 采用/v 何种/r 数值/n 格式/n 将/d 耦合/n 问题分解/n 为/p 独立/v 的/uj 子/ng 问题/n 也/d 是/v 一个/m 关键性/n 问题/n ，/x 即/v 不是/c 所有/b 的/uj 半隐半/i 显/v 格式/n 都/d 是/v 适用/v 的/uj 。/x （/x iii/eng ）/x 采用/v 多重/m 蒙特卡洛方法/n 时/ng ，/x 我们/r 将/d 重点/n 考虑/v 如何/r 调整/n 各/r 层/q 网格/n 上/f 的/uj 样本/n 数/m ，/x 使得/v 在/p 保证/v 收敛速度/n 不变/v 的/uj 情况/n 下/f ，/x 整体/n 样本/n 数/m 减少/v 。/x 另外/c ，/x 由/p 非线性/n 和/c 随机性/n 造成/v 解/v 的/uj 剧烈/a 震荡/v 或/c 间断/d （/x 即/x 解/x 缺少/v 正则性/n ）/x 时/x ，/x 弱/a 正则性/n 对/p 近似/n 求解/n 精度/n 的/uj 影响/n 如何/r ，/x 这些/r 都/d 是/v 值得/v 研究/n 的/uj 。/x （/x 3/x ）/x 拟/x 采取/v 的/uj 研究/n 方案/n 及/c 可行性分析/n 。/x （/x 包括/v 有关/vn 方法/n 、/x 技术/n 路线/n 、/x 实验/n 手段/n 、/x 关键技术/n 等/u 说明/v ）/x NSFC/eng 2015/m
+3./m 1/n
+拟/v 采取/v 的/uj 研究/n 方案/n 根据/p 本/r 项目/n 的/uj 研究/n 内容/n 和/c 关键技术/n 问题/n ，/x 我们/r 对/p 随机/n 磁流体/n 模型/n 问题/n 有/v 针对性/n 地/uv 制定/v 了/ul 以下/f 研究/n 方案/n 。/x （/x i/n ）/x 针对/p 原/b 随机/n 问题/n ，/x 我们/r 将/d 利用/n 偏微分方程/n 中/f 的/uj 方法/n 和/c 技巧/n ，/x 如/v 紧性/n 方法/n 等/u 对/p 该/r 问题/n 进行/v 研究/n 。/x 目前/t ，/x 我们/r 已经/d 对/p 确定性/n 磁流体/n 模型/n 问题/n 做/v 了/ul 初步/d 研究/n ，/x 选取/v 了/ul 一个/m 可行/v 的/uj 函数空间/n ，/x 得到/v 了/ul 确定性/n 问题/n 解/v 的/uj 正则性/n 估计/n 。/x 在/p 随机/n 弱/a
+Galerkin/eng 方法/n 中/f ，/x 针对/p 单样本/n 解/v 具有/v 剧烈/a 震荡/v 或/c 间断/d ，/x 我们/r 将/d 在/p 空间/n 方向/n 采取/v 弱/a
+Galerkin/eng 方法/n 。/x 首先/d ，/x 我们/r 基于/p 高斯/nr 公式/n ，/x 引入/v 离散/n 的/uj 弱旋度/n 概念/n ，/x 从而/c 得到/v 弱/a
+Galerkin/eng 形式/n 。/x 接着/c ，/x 由于/c 直接/ad 形式/n 的/uj 弱/a
+Galerkin/eng 形式/n 自由度/n 较/d 多/m ，/x 我们/r 将/d 利用/n
+Schur/eng complement/eng 形式/n ，/x 把/p 每个/r 小/a 单元/n 内部/f 自由度/n 转换/n 到/v 局部/n 边界/n ，/x 形成/n 由/p 局部/n 边界/n 自由度/n 组成/n 的/uj 刚度/n 矩阵/n ，/x 进行/v 整体/n 求解/n ；/x 再/x 利用/n 局部/n 边界/n 的/uj 数值/n 信息/n ，/x 反演/n 出/v 每个/r 小/a 单元/n 内部/f 的/uj 信息/n ，/x 从而/c 得到/v 数值解/n 在/p 关心/n 区域/n 上/f 的/uj 整体/n 信息/n 。/x 在/p 时间/n 方向/n ，/x 我们/r 将/d 对/p 非线性/n 部分/n 采用/v 显/x 式/x 、/x 线性/n 部分/n 采用/v 隐式/b 的/uj 半隐半/i 显/v 格式/n 。/x 这种/r 方法/n 类似/v 于/p 在/p 一个/m 固定/a 时间/n 层/q 内/f 采用/v 不动点/n 迭代/n 进行/v 求解/n 。/x 由于/c 空间/n 离散/v 中/f 弱/a
+Galerkin/eng 方法/n 采用/v 的/uj 是/v 分片/n 高次/d 多项式/n ，/x 具有/v 较高/a 的/uj 精度/n ，/x 故/c 不动点/n 迭代/n 的/uj 初值/n 离/v 真/d 解/v 不/d 太/d 远/a ，/x 能够/v 保证/v 数/m 值解/v 的/uj 整体/n 收敛/v 性/n 。/x （/x ii/eng ）/x 在/x 随机/n 弱/a
+Galerkin/eng 方法/n 中/f ，/x 在/p 随机/n 空间/n 方向/n ，/x 我们/r 将/d 采用/v
+Chebyshev/eng 多项式/n 逼近/n 。/x 在/p 对/p 一维/n 问题/n 做/v 最佳/z 多项式/n 逼近/n 时/ng ，/x Chebyshev/eng 多项式/n 存在/v 三项式/nz 递推/v 关系/n ，/x 利用/n 快速傅里叶变换/n ，/x 我们/r 可以/c 进行/v 快速/n 求解/n ，/x 并且/c 其/r
+Lebesgue/eng 常数/n 是/v 以/p
+log/eng (/x N/x )/x 速度/n 增长/v 的/uj ，/x 远远/d 优于/v
+Lagrange/eng 插值/n 的/uj
+Lebesgue/eng 常数/n 增长速度/n 。/x 但/c 在/p 高维/n 随机/n 空间/n 逼近/n 时/ng ，/x 我们/r 通常/d 没有/v 三项/m 递推/v 关系/n ，/x 故/c 求解/n 多项式/n 零点/n 本身/r 就/d 已经/d 非常/d 耗时/n 。/x 这里/r 我们/r 将/d 延续/v [/x 24/m ]/x 中/f 的/uj 方法/n ，/x 采用/v
+Lega/eng 序列/n 作为/v 高维空间/n 的/uj 采样点/n ，/x 并/c 利用/n
+Weir/eng 指数和/n 定理/vn ，/x 给出/v
+Lebesgue/eng 常数/n 的/uj 估计/n ，/x 期望/v 在/p 高维/n 随机/n 空间/n 也/d 得到/v 和/c 一维/n 类似/v 的/uj 最佳/z 一致/n 逼近/n 估计/n 。/x （/x iii/eng ）/x 在/x 多重/m 蒙特卡洛方法/n 中/f ，/x 我们/r 将/d 证明/n 在/p 层层/n 嵌套/n 的/uj 空间网/n 格/n 上/f ，/x 当/p 样本/n 数/m 与/p 当前/t 网格尺度/n 的/uj 平方/q 成正比/nr 时/ng ，/x 总体/n 的/uj 误差/n 会/v 与/p 最细/a 空间网/n 格/n 上/f 传统/n 蒙特卡洛方法/n 精度/n 一致/n ；/x 另一方面/c ，/x 在/p 嵌套/n 的/uj 网格/n 上/f 采用/v 嵌套/n 的/uj 多尺度/n 弱/a
+Galerkin/eng 国家自然科学基金/nt 申请书/nr 2015/m 版/n
+方法/n ，/x 可以/c 建立/v 相邻/v 两层/m 之间/f 的/uj 插值/n 和/c 投影关系/n ，/x 从而/c 减少/v 整体/n 自由度/n 。/x 这样/r 就/d 平衡/n 了/ul 多重/m 蒙特卡洛方法/n 误差/n 和/c 弱/a
+Galerkin/eng 方法/n 误差/n 。/x 另外/c ，/x 由于/c 不同/a 样本/n 之间/f 是/v 相互/d 独立/v 的/uj ，/x 该/r 算法/n 适合/v 于/p 并行计算/n ，/x 利于/v 快速/n 求解/n 。/x 3./m 2/x
+可行性分析/n 我们/r 主要/b 从/p 下面/f 三个/m 方面/n 阐述/v 本/r 项目/n 的/uj 可行性/n ：/x （/x i/n ）/x 研究/n 团队/n 方面/n ：/x 项目组/n 由/p 华中师范大学/nt 数学/n 与/p 统计学/n 学院/n 和/c 吉林大学/nt 数学/n 学院/n 的/uj 副教授/n 和/c 博士/n 研究生/n 组成/n 。/x 项目组/n 主要/b 成员/n 多年/m 来/v 一直/d 从事/v 计算数学/n 的/uj 相关/n 研究/n 工作/vn ，/x 在/p 计算数学/n 的/uj 理论研究/n 和/c 数值计算/n 模拟/n 方面/n 取得/v 了/ul 一些/m 研究/n 成果/n 。/x
+项目/n 负责人/n 在/p 香港中文大学/nt 获得/v 博士学位/n ，/x 后在/t 国家/n 留学/v 基金委/n 的/uj 资助/n 下/f ，/x 赴美国/i 普渡大学/nz 从事/v 学术/n 访问/v 一年/m 。/x 在/p 访问期间/n ，/x 申请人/nr 经常/d 与/p 国外/s 同行/j 专家/n 和/c 知名/v 教授/n 交流/n ，/x 学习/n 和/c 讨论/v 了/ul 相关/n 的/uj 理论知识/i 和/c 数值/n 分析工具/n ，/x 在/p 电磁场/n 方程/n 和/c 光学/n 问题/n 数值解/n 方面/n 打下/v 了/ul 一定/d 的/uj 基础/n ，/x 为/p 本/r 项目/n 的/uj 顺利进行/n 提供/v 了/ul 保障/n 。/x （/x ii/eng ）/x 研究/n 条件/n 方面/n ：/x 本/x 项目/n 的/uj 依托/v 单位/n 华中师范大学/nt 是/v 中国教育部/nt 直属/n 重点/n 综合性/n 师范大学/n 。/x 数学/n 与/p 统计学/n 学院/n 拥有/v 数学/n 一级/m 学科/n 博士学位/n 授权点/n ，/x 在/p 基础理论/n 和/c 数值计算/n 方法研究/n 方面/n 都/d 有/v 较强/a 的/uj 研究/n 梯队/n 。/x 学院/n 现有/b 高性能计算机/n 一台/m ；/x 资料室/n 资源/n 丰富/a ，/x 保证/v 了/ul 文献/n 资料/n 的/uj 同步/n 更新/n ；/x 同时/c ，/x 学院/n 建立/v 了/ul 非线性分析/n 实验室/n 、/x 信息/n 与/p 计算/n 科学/n 实验室/n 等/u 实验室/n ，/x 硬件/n 上/f 完全/ad 可以/c 保证/v 项目/n 的/uj 顺利进行/n 。/x 这些/r 将/d 为/p 今后/t 本/r 项目/n 的/uj 展开/n 提供/v 有利条件/l 。/x NSFC/eng 2015/m
+（/x iii/eng ）/x 学术/n 准备/v 方面/n ：/x 申请者/n 和/c 项目/n 组成员/n 一直/d 从事/v 偏微分方程/n 及/c 数值分析/n 方面/n 的/uj 研究/n ，/x 完成/v 十余篇/m 相关/n
+SCI/eng 科研/n 论文/nz ，/x 发表/v 在/p
+J/x ./x
+Differential/eng Equations/eng ,/x
+J/x ./x Comput/eng ./x
+Appl/eng ./x
+Math/eng ./x ,/x
+Comput/eng ./x
+Meth/eng ./x
+Appl/eng ./x
+Mech/eng ./x
+Engin/eng 等/u 方程/n 和/c 计算/n 的/uj 国际/n 高水平/nr 期刊/n 上/f 。/x 在/p
+2012/m
+年/m ，/x 申请者/n 访问/v 美国/ns 普渡大学/nz 数学/n 系/v 期间/f ，/x 多次/m 与/p 沈捷/a 教授/n 和/c 李培军/nr 教授/n 讨论/v ，/x 对/p 采用/v 谱方法/n 处理/n 确定性/n 磁流体/n 模型/n 做/v 了/ul 一些/m 数值试验/n 以及/c 数值分析/n ，/x 为/p 本/r 项目/n 中/f 随机/n 问题/n 的/uj 处理/n 奠定/v 了/ul 初步/d 的/uj 认识/v 和/c 基础/n 。/x 申请者/n 至今/d 已/d 主持/v 了/ul 一次/m 国家自然科学基金/nt 天元/q 基金/n ，/x 参加/v 国家自然科学基金/nt 项目/n 多次/m ，/x 在/p 相关/n 领域/n 积累/v 了/ul 一定/d 的/uj 工作/vn 经验/n ，/x 为/p 本/r 项目/n 的/uj 完成/v 打下/v 了/ul 一定/d 的/uj 基础/n 。/x （/x 4/x ）/x 本/x 项目/n 的/uj 特色/n 与/p 创新/n 之处/r 。/x 本/r 项目/n 的/uj 特色/n 与/p 创新/n 之处/r 有/v 三点/m ：/x （/x i/n ）/x 理论研究/n 与/p 应用研究/n 结合/v 。/x 项目/n 将/d 研究/n 随机/n 磁流体/n 模型/n 问题/n ，/x 该类/r 问题/n 与/p 地球物理/n 、/x 太阳黑子/n 活动/n 周期/n 、/x 金星/nz 木星/n 等/u 行星/n 的/uj 内部/f 活动/n 有/v 密切/ad 关联/n 。/x 研究/n 这类/r 随机/n 磁流体/n 模型/n 的/uj 理论/n ，/x 可以/c 加深/v 人们/n 对/p 天体/n 物理/n 及/c 客观/n 现象/n 的/uj 认识/v 。/x （/x ii/eng ）/x
+解析/n 与/p 数值/n 结合/v 。/x 我们/r 将/d 针对/p 随机/n 磁流体/n 模型/n ，/x 利用/n
+Bochner/eng 空间/n ，/x 给出/v 解的存在唯一性/n ，/x 这/r 在/p 以往/t 处理/n 磁流体/n 模型方法/n 中/f 很少/m 见/v ，/x 将/d 有利于/v 揭示/v 和/c 了解/v 一些/m 复杂/n 的/uj 天体/n 运动/n 。/x （/x iii/eng ）/x 我们/r 将/d 采用/v 两种/m 方式/n 来/v 处理/n 随机/n 磁流体/n 模型/n 。/x 随机/n 弱/a
+Galerkin/eng 方法/n ./x
+弱/a
+Galerkin/eng 方法/n 是/v 近几年来/l 王军平/nr 教授/n 等/u 人/n ，/x 针对/p 复杂/n 计算/v 区域/n 且/c 解/v 具有/v 强烈/a 震荡/v 时/ng ，/x 提出/v 的/uj 一种/m 新型/n 快速计算/n 方法/n 。/x 该/r 方法/n 不仅/c 可以/c 在/p 空间/n 三维/n 时/ng 应用/n 四面体网格/n ，/x 而且/c 可以/c 采取/v 凸/ag 六面体/n ，/x 甚至/d 一般/a 的/uj 凸/ag 多面体/n 生成/n 网格/n 。/x 其/r 理论/n 都/d 可以/c 归结到/v 弱/a
+Galerkin/eng 收敛性/n 的/uj 一般/a 框架/n 中/f ，/x 而/c 不/d
+国家自然科学基金/nt 申请书/nr 2015/m 版/n
+依赖于/v 具体/a 的/uj 网格/n 剖分/n ，/x 给/p 设计算法/n 提供/v 了/ul 更/d 多/m 的/uj 灵活性/n 。/x 传统/n 的/uj 间断/d 有限元方法/n ，/x 在/p 处/n 理解/n 的/uj 剧烈/a 震荡/v 或/c 间断/d 时/ng ，/x 通常/d 需要/v 调整/n 稳定性/n 参数/n ，/x 这/r 会/v 加大/v 实际/n 计算/n 的/uj 工作量/n 。/x 而/c 弱/a
+Galerkin/eng 方法/n 在/p 处理/n 同样/d 的/uj 问题/n 时/ng ，/x 只/d 需/v 引入/v 局部/n 网/n 格/n 边界/n 上/f 的/uj 稳定/n 子/ng ，/x 不/d 需要/v 调整/n 任何/r 计算/n 参数/n 。/x 多重/m 蒙特卡洛方法/n ./x
+Schwab/eng 教授/n 等/u 人/n 用/p 多重/m 蒙特卡洛方法/n 处理/n 了/ul 系数/n 带/v 随机项/n 的/uj 椭圆/n 问题/n ，/x 并/c 将/d 该/r 方法/n 应用/n 到/v 各种各样/l 的/uj 随机偏微分方程/n 中/f 。/x 我们/r 将/d 沿袭/v 这种/r 思路/n ，/x 处理/n 物理空间/n 和/c 随机/n 空间/n 耦合/n 的/uj 随机/n 磁流体/n 模型/n 问题/n ，/x 期望/v 在/p 减少/v 样本/n 的/uj 同时/c ，/x 得到/v 空间/n 细/a 网格/n 上/f 与/p 标准/n 蒙特卡洛方法/n 相似/n 的/uj 精度/n 。/x （/x 5/x ）/x 年度/n 研究/n 计划/n 及/c 预期/vn 研究/n 结果/n 。/x （/x 包括/v 拟/v 组织/n 的/uj 重要/a 学术交流/n 活动/n 、/x 国际/n 合作/vn 与/p 交流/n 计划/n 等/x ）/x 本/x 项目/n 预计/n 三年/m 完成/v ：/x 2016/m
+年/m
+1/n
+月/x －/x 2016/m
+年/m
+12/m
+月/m ，/x 在/p 前期工作/l 的/uj 基础/n 上/f ，/x 掌握/v 国内外/s 相关/n 领域/n 的/uj 最新/d 动态/n ，/x 查询/n 并/c 获取/n 与/p 研究/n 有关/vn 的/uj 文献/n 资料/n ，/x 研读/v 具有/v 代表性/n 的/uj 文献/n ，/x 及时/c 掌握/v 最新进展/nt 。/x 利用/n
+Bochner/eng 空间/n 的/uj 一些/m 基本性质/n 和/c 技巧/n ，/x 证明/n 原/b 随机/n 磁流体/n 模型/n 解/v 的/uj 存在/v 性/n 和/c 唯一性/n 。/x 实现/n 单个/n 样本/n 确定性/n 磁流体/n 模型/n 的/uj 弱/a
+Galerkin/eng 方法/n 的/uj 编程/n 。/x 2017/m
+年/m
+1/n
+月/x －/x 2017/m
+年/m
+12/m
+月/m ，/x 在/p 随机/n 空间/n ，/x 采用/v 特殊/a 的/uj 样本/n 点/m ，/x 利用/n
+Chebyshev/eng 多项式/n 进行/v 逼近/n ，/x 结合/v 空间/n 方/q 向上/d 的/uj 弱/a
+Galerkin/eng 方法/n ，/x 实现/n 随机/n 弱/a
+Galerkin/eng 方法/n 整体/n 编程/n ，/x 并/c 证明/n 数值方法/n 的/uj 稳定性/n 和/c 收敛性/n 。/x NSFC/eng 2015/m
+2018/m
+年/m
+1/n
+月/x －/x 2018/m
+年/m
+12/m
+月/m ，/x 实现/n 多重/m 蒙特卡洛方法/n 处理/n 随机/n 磁流体/n 模型/n ，/x 并/c 在/p 理论/n 上/f 证明/n 其/r 方法/n 的/uj 收敛性/n 。/x 比较/d 两种/m 数值方法/n 结果/n 的/uj 一致性/n ，/x 以及/c 这/r 两种/m 方法/n 的/uj 优劣/a 性/n 。/x 整理/n 相关/n 结果/n ，/x 以/p 论文/nz 形式/n 投出/v ，/x 期望/v 项目/n 期间/f 完成/v
+3/x -/x 6/x
+篇/m 高水平/nr 的/uj 研究/n 论文/nz 。/x 这/r 三年/m 期间/f ，/x 申请者/n 会/v 与/p 国内外/s 专家/n 合作/n 交流/n 数次/m ，/x 邀请/v
+1/n
+人次/n 国际/n 专家/n 进行/v 项目/n 内容/n 交流/n 。/x 项目/n 期间/f ，/x 拟/v 邀请/v 普渡大学/nz 数学/n 系/v 沈捷/a 教授/n 、/x 李/x 培/x 军/x 教授/n （/x 其中/r 一/m 人为/n 顺访/v ）/x ，/x 香港中文大学/nt 数学/n 系/v 邹军/nr 教授/n 及/c 相关/n 领域专家/n 来/v 我/r 系/v 访问/v ，/x 共同/d 探讨/v 项目/n 中/f 的/uj 学术/n 问题/n 。/x 2/x ./x
+研究/n 基础/n 与/p 工作/vn 条件/n （/x 1/n ）/x 工作/vn 基础/n （/x 与/x 本/x 项目/n 相关/n 的/uj 研究/n 工作/vn 积累/v 和/c 已/d 取得/v 的/uj 研究/n 工作/vn 成绩/n ）/x
+项目组/n 由/p 华中师范大学/nt 数学/n 与/p 统计学/n 学院/n 和/c 吉林大学/nt 数学/n 学院/n 的/uj 副教授/n 和/c 博士/n 研究生/n 组成/n 。/x 项目组/n 主要/b 成员/n 多年/m 来/v 一直/d 从事/v 计算数学/n 的/uj 相关/n 研究/n 工作/vn ，/x 在/p 计算数学/n 的/uj 理论研究/n 和/c 数值计算/n 模拟/n 方面/n 取得/v 了/ul 一些/m 研究/n 成果/n 。/x 项目/n 负责人/n 在/p 香港中文大学/nt 获得/v 博士学位/n ，/x 后在/t 国家/n 留学/v 基金委/n 的/uj 资助/n 下/f ，/x 赴美国/i 普渡大学/nz 从事/v 学术/n 访问/v 一年/m 。/x 在/p 访问期间/n ，/x 申请人/nr 经常/d 与/p 国外/s 同行/j 专家/n 和/c 知名/v 教授/n 交流/n ，/x 学习/n 和/c 讨论/v 了/ul 相关/n 的/uj 理论知识/i 和/c 数值/n 分析工具/n ，/x 在/p 电磁场/n 方程/n 和/c 光学/n 问题/n 数值解/n 方面/n 打下/v 了/ul 牢固/a 的/uj 基础/n ，/x 为/p 本/r 项目/n 的/uj 顺利进行/n 提供/v 了/ul 保障/n 。/x
+国家自然科学基金/nt 申请书/nr 2015/m 版/n
+申请者/n 和/c 项目/n 组成员/n 一直/d 从事/v 偏微分方程/n 及/c 数值分析/n 方面/n 的/uj 研究/n ，/x 完成/v 十余篇/m 相关/n SCI/eng 科研/n 论文/nz ，/x 发表/v 在/p J/x ./x
+Differential/eng Equations/eng ,/x
+J/x ./x
+Comput/eng ./x
+Appl/eng ./x
+Math/eng ./x ,/x Comput/eng ./x
+Meth/eng ./x
+Appl/eng ./x
+Mech/eng ./x
+Engin/eng 等/u 国际/n 高水平/nr 方程/n 和/c 计算/n 期刊/n 上/f 。/x 在/p 2012/m 年/m ，/x 申请者/n 访问/v 美国/ns 普渡大学/nz 数学/n 系/v 期间/f ，/x 多次/m 与/p 沈捷/a 教授/n 和/c 李培军/nr 教授/n 讨论/v ，/x 对/p 采用/v 谱方法/n 处理/n 确定性/n 磁流体/n 模型/n 做/v 了/ul 一些/m 数值试验/n 以及/c 数值分析/n ，/x 为/p 本/r 项目/n 中/f 随机/n 问题/n 的/uj 处理/n 奠定/v 了/ul 初步/d 的/uj 认识/v 和/c 基础/n 。/x 申请者/n 至今/d 已/d 主持/v 了/ul 一次/m 国家自然科学基金/nt 天元/q 基金/n ，/x 参加/v 国家自然科学基金/nt 项目/n 多次/m ，/x 在/p 相关/n 领域/n 积累/v 了/ul 一定/d 的/uj 工作/vn 经验/n ，/x 为/p 本/r 项目/n 的/uj 完成/v 打下/v 了/ul 一定/d 的/uj 基础/n 。/x （/x 2/x ）/x 工作/vn 条件/n （/x 包括/v 已/d 具备/v 的/uj 实验/n 条件/n ，/x 尚/d 缺少/v 的/uj 实验/n 条件/n 和/c 拟/v 解决/v 的/uj 途径/n ，/x 包括/v 利用/n 国家/n 实验室/n 、/x 国家/n 重点/n 实验室/n 和/c 部门/n 开放/n 实验室/n 等/u 研究/n 基地/n 的/uj 计划/n 与/p 落实/a 情况/n ）/x 本/x 项目/n 的/uj 依托/v 单位/n 华中师范大学/nt 是/v 中国教育部/nt 直属/n 重点/n 综合性/n 师范大学/n 。/x 数学/n 与/p 统计学/n 学院/n 拥有/v 数学/n 一级/m 学科/n 博士学位/n 授权点/n ，/x 在/p 基础理论/n 和/c 数值计算/n 方法研究/n 方面/n 都/d 有/v 较强/a 的/uj 研究/n 梯队/n 。/x 学院/n 现有/b 高性能计算机/n 一台/m ；/x 资料室/n 资源/n 丰富/a ，/x 保证/v 了/ul 文献/n 资料/n 的/uj 同步/n 更新/n ；/x 同时/c ，/x 学院/n 建立/v 了/ul 非线性分析/n 实验室/n 、/x 信息/n 与/p 计算/n 科学/n 实验室/n 等/u 实验室/n ，/x 硬件/n 上/f 完全/ad 可以/c 保证/v 项目/n 的/uj 顺利进行/n 。/x 这些/r 将/d 为/p 今后/t 本/r 项目/n 的/uj 展开/n 提供/v 有利条件/l 。/x NSFC/eng 2015/m
+（/x 3/x ）/x 承担/v 科研项目/n 情况/n （/x 申请人/nr 正在/t 承担/v 或/c 参加/v 科研项目/n 的/uj 情况/n ，/x 包括/v 国家自然科学基金/nt 的/uj 项目/n 。/x 要/v 注明/v 项目/n 的/uj 名称/n 和/c 编号/n 、/x 经费/vn 来源/n 、/x 起止/v 年/x 月/x 、/x 与/x 本/x 项目/n 的/uj 关系/n 及/c 负责/v 的/uj 内容/n 等/x ）/x 申请人/nr 目前/t 正在/t 参加/v 两个/m 国家自然科学基金/nt 项目/n ：/x Alexandrov/eng 空/a
+间/f
+和/c
+度/q
+量/n
+测/v
+度/q
+空/a
+间/f
+中/f
+抛/v
+物/ng
+型/k
+偏/a
+微/n
+分/q
+方/q
+程/n
+的/uj
+研/v
+究/vg
+（/x
+编/v
+号/m
+：/x 11171126/m ，/x 2012/m ./x 1/n ./x 1/n -/x 2015/m ./x 12/m ./x 31/m ）/x 含/x 临界/n 指/v 标的/n 非线性/n 椭圆/n 问题/n 的/uj 临界/n 维/nr 现象/n （/x 编号/n ：/x 11371160/m ，/x 2014/m ./x 1/n ./x 1/n -/x 2017/m ./x 12/m ./x 31/m ）/x
+申请人/nr 在/p 这/r 两个/m 项目/n 中/f 负责/v 参与/v 研讨班/n 并/c 撰写论文/n 。/x 这些/r 项目/n 中/f 关于/p 抛物/n 型/k 和/c 非线性/n 椭圆/n 方程/n 的/uj 研究/n 与/p 本/r 申请/v 项目/n 中/f 模型/n 的/uj 理论分析/n 都/d 将/d 用到/v 类似/v 的/uj 研究/n 工具/n ，/x 科研/n 过程/n 可以/c 相辅相成/i 。/x （/x 4/x ）/x 完成/v 国家自然科学基金/nt 项目/n 情况/n （/x 对/x 申请人/nr 负责/v 的/uj 前/f 一个/m 已/d 结题/n 科学/n 基金项目/n （/x 项目名称/n 及/c 批准/v 号/x ）/x 完成/v 情况/n 、/x 后续/v 研究/n 进展/vn 及/c 与/p 本/r 申请/v 项目/n 的/uj 关系/n 加以/v 详细/ad 说明/v 。/x 另附/v 该/r 已/d 结题/n 项目/n 研究/n 工作/vn 总结/n 摘要/n （/x 限/x
+500/m
+字/x ）/x 和/x 相关/n 成果/n 的/uj 详细/ad 目录/n ）/x 申请者/n 已/d 主持/v 一项/m 国家自然科学基金/nt 项目/n 数学/n 天元/q 青年/t 基金/n ：/x 球形/n 发电机/n 模型/n
+国家自然科学基金/nt 申请书/nr 2015/m 版/n
+中/f 的/uj 反问题/n （/x 编号/n ：/x 10826051/m ）/x 。/x 我们/r 证明/n 了/ul 该/r 模型/n 连续/n 问题/n 解的存在性/n 和/c 稳定性/n ，/x 对/p 该/r 问题/n 进行/v 了/ul 有限元/n 离散/n ，/x 但/c 在/p 证明/n 有限元/n 解/v 的/uj 收敛性/n 时/ng 遇到/v 了/ul 问题/n ，/x 由于/c 用/p 有限元法/n 时/ng 是/v 用/p 多面体/n 逼近/n 球体/n ，/x 而/c 我们/r 很/d 难/a 构造/n 出/v 不/d 依赖于/v 多面体/n 个数/n 的/uj 投影算子/n ，/x 从而/c 未/d 得到/v 不/d 依赖于/v 多面体/n 个数/n 的/uj 数值解/n 的/uj 一致/n 估计/n 。/x 我们/r 期望/v 在/p 证明/n 了/ul 收敛性/n 后/f 将/d 这些/r 结果/n 一并/d 投出/v 。/x 但是/c 该项/r 目的/n 研究/n 过程/n 无论/c 从/p 方程/n 的/uj 理论/n 上/f 还是/c 从/p 数值计算/n 上/f 都/d 为/p 申请者/n 今后/t 能/v 完/v 成本/n 项目/n 打下/v 了/ul 基础/n 。/x 本/r 项目/n 提出/v 的/uj 模型/n 与/p 该/r 模型/n 类似/v ，/x 但是/c 进行/v 了/ul 改进/n ，/x 不/d 需要/v 引进/v Lagrange/eng 乘子/n ，/x 拟/v 在/p 不同/a 的/uj 框架/n 下用/v 不同/a 的/uj 方法/n 进行/v 研究/n 。/x 我们/r 将/d 利用/n 该/r 模型/n 物理/n 区域/n 的/uj 特殊性/n ，/x 借鉴/v 谱方法/n ，/x 将/d 其/r 应用/n 到/v 球形/n 随机/n 磁流体/n 模型/n 中/f ，/x 以期/f 得到/v 预测/n 的/uj 结果/n 。/x 附件/n 1/n ：/x 研究/n 工作/vn 总结/n 摘要/n （/x 限/x
+500/m
+字/x ）/x 通过/p 一年/m 的/uj 研究/n ，/x 我们/r 在/p 该/r 问题/n 上/f 获得/v 如下/t 进展/vn ：/x 1/n ）/x 将/x 该/x 问题/n 数学/n 化为/v 最小二乘/n 吉洪诺夫/nr 正则化/n 问题/n ，/x 即求/v 泛函/n J/x
+在/p 约束/n K/x
+中/f 的/uj 极/d 小子/n 问题/n ，/x 其中/r NSFC/eng 2015/m
+B/x
+是/v 满足/v 某/r 弱/a 形式/n 的/uj 解/v 。/x 我们/r 利用/n Lions/eng -/x Aubin/eng 的/uj 紧性/n 引理/v 、/x 相应/v 正问题/n 解/v 的/uj 正则性/n 结果/n 等/u ，/x 证明/n 了/ul 上述/b 最优化问题/n 极/d 小子/n 的/uj 存在/v 性/n 以及/c 该/r 正则化/n 问题/n 的/uj 稳定性/n 。/x 2/x ）/x 选取/v 适当/a 的/uj 有限元/n 空间/n ，/x 将/d 该/r 问题/n 进行/v 有限元/n 离散/n ，/x 证明/n 了/ul 有限元/n 解/v 的/uj 稳定性/n 和/c 存在/v 性/n 。/x
+上述/b 结果/n 推广/v 了/ul 前人/n 的/uj 工作/vn ，/x 积累/v 了/ul 部分/n 理论/n 结果/n ，/x 有/v 可能/v 为/p 将来/t 该类/r 问题/n 应用/n 于/p 实际/n ，/x 如/v 探知/v 星体/n 内部/f 物质/n 结构/n ，/x 勘测/vn 地下/s 矿物质/n 等/u 作出/v 一定/d 贡献/n 。/x 附件/n 2/x ：/x 相关/n 成果/n 的/uj 详细/ad 目录/n 【/x 1/n 】/x Ting/eng Cheng/eng ,/x
+Parameter/eng recovery/eng for/eng a/x
+3D/m
+spherical/eng dynamo/eng equation/eng ,/x
+preprint/eng ./x 3./m
+资金/n 预算/n 说明/v 购置/v 单项/b 经费/vn
+5/x
+万元以上/l 固定资产/l 及/c 设备/n 等/u ，/x 须/d 逐项/d 说明/v 与/p 项目/n 研究/n 的/uj 直接/ad 相关性/n 及/c 必要性/l 。/x 4./m
+其他/r 需要/v 说明/v 的/uj 问题/n 无/v
+国家自然科学基金/nt 申请书/nr 2015/m 版/n
+程婷/nr
+简历/v 华中师范大学/nt ，/x 数学/n 与/p 统计学/n 学院/n ，/x 副教授/n 教育/vn 经/x 历/x （/x 按/x 时间/n 倒/v 排序/n ）/x ：/x 2001/m //x 9/x
+-/x
+2004/m //x 8/x ，/x 香港中文大学/nt ，/x 计算数学/n ，/x 博士/n ，/x 导师/n ：/x 邹/x 军/x 、/x 辛/x 周/x 平/x 1998/m //x 9/x
+-/x
+2001/m //x 6/x ，/x 华中师范大学/nt ，/x 基础数学/n ，/x 硕士/n ，/x 导师/n ：/x 邓/x 引/x 斌/x 1994/m //x 9/x
+-/x
+1998/m //x 6/x ，/x 华中师范大学/nt ，/x 数学/n ，/x 学士/n 工作/vn 经历/n （/x 科研/n 与/p 学术/n 工作/vn 经历/n ，/x 按/p 时间/n 倒/v 排序/n ）/x ：/x 2008/m //x 6/x
+-/x
+至今/d ，/x 华中师范大学/nt ，/x 数学/n 与/p 统计学/n 学院/n ，/x 副教授/n 2004/m //x 9/x
+-/x
+2008/m //x 6/x ，/x 华中师范大学/nt ，/x 数学/n 与/p 统计学/n 学院/n ，/x 讲师/n 曾/d 使用证/n 件/q 信息/n （/x 限/x 3/x 个/x ）/x 身份证/n ，/x 420111197511285525NSFC/m
+2015/m
+主持/v 或/c 参加/v 科研项目/n 及/c 人才/n 计划/n 项目/n 情况/n （/x 按/x 时间/n 倒/v 排序/n ）/x ：/x 1/n 、/x 国家自然科学基金/nt 面上/f 项目/n ，/x 11371160/m 、/x 含/x 临界/n 指/v 标的/n 非线性/n 椭圆/n 问题/n 的/uj 临界/n 维/nr 现象/n 、/x 2014/m //x 01/m -/x 2017/m //x 12/m 、/x 60/m 万元/m 、/x 在/x 研/x 、/x 参加/v 。/x 2/x 、/x 国家自然科学基金/nt 面上/f 项目/n ，/x 11171126/m 、/x Alexandrov/eng 空间/n 和/c 度量/n 测度/n 空间/n 中/f 抛物/n 型/k 偏微分方程/n 的/uj 研究/n 、/x 2012/m //x 01/m -/x 2015/m //x 12/m 、/x 45/m 万元/m 、/x 在/x 研/x 、/x 参加/v 。/x 3/x 、/x 国家自然科学基金/nt 项目/n 数学/n 天元/q 青年/t 基金/n ，/x 10826051/m 、/x 球形/n 发电机/n 模型/n 中/f 的/uj 反问题/n 、/x 2009/m //x 01/m -/x 2009/m //x 12/m 、/x 3/x 万元/m 、/x 已/x 结题/n 、/x 主持/v 。/x
+国家自然科学基金/nt 申请书/nr 2015/m 版/n
+帅伟/nr 简历/v (/x 参加者/n )/x 目前/t 所在/b 机构/n ：/x 华中师范大学/nt ，/x 部门/n ：/x 数学/n 与/p 统计学/n 学院/n 教育/vn 经/x 历/x （/x 从/x 大学本科/n 开始/v ，/x 按/p 时间/n 倒/v 排序/n ）/x ：/x 2011/m //x 09/m
+–/x
+，/x 华中师范大学/nt ，/x 数学/n 与/p 统计学/n 学院/n ，/x 博士生/nr ，/x 导师/n ：/x 邓/x 引/x 斌/x 2007/m //x 09/m
+-/x
+2011/m //x 06/m ，/x 湖北/ns 大学/n ，/x 数学/n 与/p 计算机科学/n 学院/n ，/x 学士/n 工作/vn 经历/n （/x 科研/n 与/p 学术/n 工作/vn 经历/n ，/x 按/p 时间/n 倒/v 排序/n ）/x ：/x 无/x 曾/x 使用证/n 件/q 信息/n （/x 限/x
+3/x
+个/x ）/x 身份证/n ，/x 420922198810037713/m 主持/v 或/c 参加/v 科研项目/n 及/c 人才/n 计划/n 项目/n 情况/n （/x 按/x 时间/n 倒/v 排序/n ）/x ：/x 无/x NSFC/eng 2015/m
+曾/d 使用证/n 件/q 信息/n （/x 限/x
+3/x
+个/x ）/x 身份证/n ，/x 4201031976091420122011/m //x 9/x -/x 至今/d ，/x 吉林大学/nt ，/x 数学/n 学院/n ，/x 副教授/n 2008/m //x 8/x -/x 2010/m //x 7/x ，/x 密西根/ns 州立大学/n ，/x 数学/n 系/v ，/x 博士后/nr ，/x 2006/m //x 9/x -/x 2011/m //x 8/x ，/x 吉林大学/nt ，/x 数学/n 学院/n ，/x 讲师/n 2002/m //x 12/m -/x 2006/m //x 8/x ，/x 吉林大学/nt ，/x 数学/n 学院/n ，/x 助教/n NSFC/eng 2015/m
+方法/n
+2015/m //x 01/m -/x 2018/m //x 12/m 、/x 62/m
+万元/m 、/x 在/x 研/x 、/x 主持/v 。/x 主持/v 或/c 参加/v 科研项目/n 及/c 人才/n 计划/n 项目/n 情况/n （/x 按/x 时间/n 倒/v 排序/n ）/x ：/x 1/n 、/x 国家自然科学基金/nt 面上/f 项目/n ，/x 11471141/m 、/x 随机/n
+Helmholtz/eng 型/k 问题/n 的/uj 数值/n 国家自然科学基金/nt 申请书/nr 2015/m 版/n
+张凯/nr 简历/v (/x 申请者/n //x 参加者/n )/x 吉林大学/nt 数学/n 学院/n
+副教授/n 教育/vn 经/x 历/x （/x 从/x 大学本科/n 开始/v ，/x 按/p 时间/n 倒/v 排序/n ）/x ：/x 2003/m //x 09/m
+–/x
+2008/m //x 06/m ，/x 香港中文大学/nt ，/x 数学/n 系/v ，/x 博士/n ,/x 导师/n ：/x 邹/x 军/x 2000/m //x 09/m
+–/x
+2006/m //x 06/m ，/x 吉林大学/nt ，/x 数学/n 学院/n ，/x 博士/n ,/x 导师/n ：/x 黄/x 明/x 游/x 1999/m //x 09/m
+–/x
+2000/m //x 06/m ，/x 吉林大学/nt ，/x 数学/n 学院/n ，/x 硕士/n ,/x 导师/n ：/x 周/x 蕴/x 时/x 1995/m //x 09/m
+–/x
+1999/m //x 06/m ，/x 吉林大学/nt ，/x 数学/n 学院/n ，/x 学士/n 工作/vn 经历/n （/x 科研/n 与/p 学术/n 工作/vn 经历/n ，/x 按/p 时间/n 倒/v 排序/n ）/x ：/x 2/x 、/x 国家自然科学基金/nt 青年/t 项目/n ，/x 10701039/m 、/x 多体系统/n 散射/n 与/p 反散射/n 问题/n 的/uj 数值计算方法/n
+2008/m //x 01/m -/x 2010/m //x 12/m 、/x 15/m
+万元/m 、/x 已/x 结题/n 、/x 主持/v 。/x 3/x 、/x 国家自然科学基金/nt 面上/f 项目/n ，/x 11076014/m 、/x 辐射/n 三温/nz 能量方程/n 组/q 高效/n 有限/a 体积/n 元/m 方法研究/n 与/p 程序/n 实现/n
+2011/m //x 01/m -/x 2013/m //x 12/m 、/x 31/m
+万元/m 、/x 已/x 结题/n 、/x 第二/m 参加/v 人/n 。/x 4/x 、/x 国家自然科学基金/nt 面上/f 项目/n ，/x 11071103/m 、/x 计算/n 高效/n 的/uj 几何/n 与/p 纹理/n 稀疏表示/n
+2011/m //x 01/m -/x 2013/m //x 12/m 、/x 30/m
+万元/m 、/x 已/x 结题/n 、/x 第二/m 参加/v 人/n 。/x 5/x 、/x 国家自然科学基金/nt 面上/f 项目/n ，/x 10971082/m 、/x 有限/a 体积/n 元法/n 的/uj
+L/x ^/x 2/x
+误差估计/n 和/c 超/v 收敛性/n 研究/n
+2010/m //x 01/m -/x 2012/m //x 12/m 、/x 27/m
+万元/m 、/x 已/x 结题/n 、/x 第二/m 参加/v 人/n 。/x
+国家自然科学基金/nt 申请书/nr 2015/m 版/n
+张佳川/nr 简历/v (/x 申请者/n //x 参加者/n )/x 所在/b 机构/n ：/x 吉林大学/nt
+部门/n ：/x 数学/n 学院/n
+职称/n ：/x 无/x 教育/vn 经/x 历/x （/x 从/x 大学本科/n 开始/v ，/x 按/p 时间/n 倒/v 排序/n ）/x ：/x 2014/m //x 09/m
+–/x
+至今/d ,/x
+吉林大学/nt ，/x 数学/n 学院/n ，/x 博士/n ，/x 导师/n ：/x 张/x 然/x 2012/m //x 09/m
+–/x
+2014/m //x 06/m ，/x 吉林大学/nt ，/x 数学/n 学院/n ，/x 硕士/n ，/x 导师/n ：/x 张/x 然/x 2008/m //x 09/m
+–/x
+2012/m //x 06/m ，/x 长春/ns 理工大学/nt ，/x 理学院/n ，/x 本科/r 工作/vn 经历/n （/x 科研/n 与/p 学术/n 工作/vn 经历/n ，/x 按/p 时间/n 倒/v 排序/n ）/x ：/x 2014/m //x 7/x -/x 2014/m //x 8/x ，/x 香港浸会大学/n ，/x 数学/n 系/v ，/x 科研/n 助理/vn NSFC/eng 2015/m
+曾/d 使用证/n 件/q 信息/n （/x 限/x
+3/x
+个/x ）/x 身份证/n ，/x 130183198812151552/m 主持/v 或/c 参加/v 科研项目/n 及/c 人才/n 计划/n 项目/n 情况/n （/x 按/x 时间/n 倒/v 排序/n ）/x ：/x 无/x
+国家自然科学基金/nt 申请书/nr 2015/m 版/n
+近/a 5/x 年/x （/x 2010/m 年/m 1/n 月/m 1/n 日/m 以后/f ）/x 代表性/n 研究/n 成果/n 列表/n 1/n 、/x
+程婷/nr ，/x On/eng the/eng behavior/eng of/eng blow/eng -/x up/eng solutions/eng to/eng a/x
+parabolic/eng problem/eng with/eng critical/eng exponent/eng ，/x Journal/eng ofMathematical/eng Analysis/n
+and/eng Applications/eng ，/x 2013/m ，/x 402/m （/x 1/n ）/x ：/x 255/m -/x 260/m 。/x  /x  /x  /x  /x  /x  /x 期刊论文/n 2/x 、/x
+程婷/nr ，/x Near/eng -/x field/eng imaging/eng of/eng perfectly/eng conducting/eng grating/eng surfaces/eng ，/x Journal/eng of/eng the/eng Optical/eng Society/eng ofAmerica/eng A/x ，/x 2013/m ，/x 30/m （/x 12/m ）/x ：/x 2473/m -/x 2481/m 。/x  /x  /x  /x  /x  /x  /x 期刊论文/n NSFC/eng 2015/m
+国家自然科学基金/nt 申请书/nr 2015/m 版/n
+附件/n 信息/n
+序号/n
+附件/n 名称/n
+备注/v
+附件/n 类型/n
+1234/m 论文/nz 1/n
+论文/nz 2/x
+合作/n 单位/n 预算/n 表/n 合作/n 单位/n 预算/n 表/n 说明/v 代表性/n 论著/n
+代表性/n 论著/n
+其他/r
+其他/r
+NSFC/eng 2015/m
+国家自然科学基金/nt 申请书/nr 2015/m 版/n
+签字/v 和/c 盖章/nr 页/m
+申/x  /x 请/x  /x 人/x ：/x
+程婷/nr 依托/v 单位/n ：/x
+华中师范大学/nt 项目名称/n ：/x
+随机/n 磁流体/n 模型/n 的/uj 快速算法/n 资助/n 类别/n ：/x
+青年/t 科学/n 基金项目/n 亚类/n 说明/v ：/x
+附注/v 说明/v ：/x
+申请人/nr 承诺/n ：/x
+ /x  /x  /x  /x 我/x 保证/v 申请书/nr 内容/n 的/uj 真实性/n 。/x 如果/c 获得/v 资助/n ，/x 我/r 将/d 履行/v 项目/n 负责人/n 职责/n ，/x 严格遵守/nr 国家自然科学基金委员会/nt 的/uj 有关/vn 规定/n ，/x 切实/ad 保证/v 研究/n 工作/vn 时间/n ，/x 认真/ad 开展/v 工作/vn ，/x 按时/d 报送/v 有关/vn 材料/n 。/x 若/c 填报/v 失实/v 和/c 违反规定/l ，/x 本人/r 将/d 承担/v 全部/n 责任/n 。/x 项目组/n 主要/b 成员/n 承诺/n ：/x 签字/v ：/x
+ /x  /x  /x  /x 我/x 保证/v 有关/vn 申报/nz 内容/n 的/uj 真实性/n 。/x 如果/c 获得/v 资助/n ，/x 我/r 将/d 严格遵守/nr 国家自然科学基金委员会/nt 的/uj 有关/vn 规定/n ，/x 切实/ad 保证/v 研究/n 工作/vn 时间/n ，/x 加强/v 合作/n 、/x 信息资源共享/n ，/x 认真/ad 开展/v 工作/vn ，/x 及时/c 向/p 项目/n 负责人/n 报送/v 有关/vn 材料/n 。/x 若/c 个人信息/n 失实/v 、/x 执行/v 项目/n 中/f 违反规定/l ，/x 本人/r 将/d 承担/v 相关/n 责任/n 。/x 编号/n
+姓名/n
+工作/vn 单位名称/n
+每年/r 工作/vn
+ /x 时间/n （/x 月/x ）/x
+签字/v
+123456789/m 帅伟/nr
+张凯/nr
+华中师范大学/nt
+吉林大学/nt
+张佳川/nr
+吉林大学/nt
+ /x  /x  /x  /x  /x  /x  /x  /x  /x  /x  /x  /x 333/m  /x  /x  /x  /x  /x  /x  /x  /x  /x  /x  /x  /x  /x  /x  /x 依托/v 单位/n 及/c 合作/n 研究/n 单位/n 承诺/n ：/x  /x  /x  /x  /x 已/x 按/x 填报/v 说明/v 对/p 申请人/nr 的/uj 资格/n 和/c 申请书/nr 内容/n 进行/v 了/ul 审核/v 。/x 申请/v 项目/n 如/v 获/v 资助/n ，/x 我/r 单位/n 保证/v 对/p 研究/n 计划/n 实施/v 所/u 需要/v 的/uj 人力/n 、/x 物力/n 和/c 工作/vn 时间/n 等/u 条件/n 给予/v 保障/n ，/x 严格遵守/nr 国家自然科学基金委员会/nt 有关/vn 规定/n ，/x 督促/v 项目/n 负责人/n 和/c 项目/n 组成员/n 以及/c 本/r 单位/n 项目管理/n 部门/n 按照/p 国家自然科学基金委员会/nt 的/uj 规定/n 及时/c 报送/v 有关/vn 材料/n 。/x 依托/v 单位/n 公章/n
+日期/t ：/x
+合作/n 研究/n 单位/n 公章/n 1/n 合作/n 研究/n 单位/n 公章/n 2/x 日期/t ：/x
+日期/t ：/x
