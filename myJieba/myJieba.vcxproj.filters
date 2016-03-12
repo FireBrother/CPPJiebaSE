@@ -101,5 +101,11 @@
     <ClInclude Include="myExt\PosHMMModel.hpp">
       <Filter>头文件\myExt</Filter>
     </ClInclude>
+    <ClInclude Include="myExt\MultiISegment.hpp">
+      <Filter>头文件\myExt</Filter>
+    </ClInclude>
+    <ClInclude Include="myExt\MultiSegmentBase.hpp">
+      <Filter>头文件\myExt</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

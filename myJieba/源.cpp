@@ -43,10 +43,12 @@ bool initialize_parameter_pool(const string& walk_path, vector<vector<string> > 
 }
 
 bool postag_string(const string& s) {
-	vector<pair<string, string> > tagres;
-	app.tag(S2U(s), tagres);
+	vector<vector<pair<string, string> > > vtagres;
+	app.tag(S2U(s), vtagres);
 	cout << s << endl;
-	cout << tagres << endl;
+	for each (auto tagres in vtagres) {
+		cout << tagres << endl;
+	}
 	return 1;
 }
 
@@ -63,9 +65,9 @@ bool postag_file(string filename, string outputfile_name = "") {
 	ofstream fout(S2G(outputfile_name));
 	if (!fin) { printf("Open file %s failed.\n", filename.c_str()); return 0; }
 	while (fin >> s) {
-		vector<pair<string, string> > tagres;
-		app.tag(S2U(s), tagres);
-		string result = join(tagres.begin(), tagres.end(), " ");
+		vector<vector<pair<string, string> > > vtagres;
+		app.tag(S2U(s), vtagres);
+		string result = join(vtagres[0].begin(), vtagres[0].end(), " ");
 		if (result.length() > 4 && result.substr(result.length()-4) == "/eng")
 			fout << EncodingAdapter::SmartToUTF8(result) << ' ';
 		else

@@ -12,7 +12,7 @@ last modified time: 20151126
 #include <memory.h>
 #include <cassert>
 #include "PosHMMModel.hpp"
-#include "../src/SegmentBase.hpp"
+#include "MultiSegmentBase.hpp"
 #include "../src/DictTrie.hpp"
 
 namespace CppJieba {

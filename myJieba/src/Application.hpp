@@ -65,8 +65,8 @@ class Application {
   bool insertUserWord(const string& word, const string& tag = UNKNOWN_TAG) {
     return dictTrie_.insertUserWord(word, tag);
   }
-  void tag(const string& str, vector<pair<string, string> >& res) const {
-    tagger_.tag(str, res);
+  void tag(const string& str, vector<vector<pair<string, string> > >& vres) const {
+    tagger_.tag(str, vres);
   }
   void extract(const string& str, vector<pair<string, double> >& keyword, 
         size_t topN) const {

@@ -12,13 +12,13 @@ last modified time: 20151126
 #include <cassert>
 #include "../src/Limonp/Logger.hpp"
 #include "../src/DictTrie.hpp"
-#include "../src/ISegment.hpp"
-#include "../src/SegmentBase.hpp"
-#include "../myExt/EncodingAdapter.hpp"
+#include "MultiISegment.hpp"
+#include "MultiSegmentBase.hpp"
+#include "EncodingAdapter.hpp"
 
 namespace CppJieba {
 
-class PosMPSegment: public SegmentBase {
+class PosMPSegment: public MultiSegmentBase {
  public:
 	 PosMPSegment(const string& dictPath, const string& userDictPath = "") {
     dictTrie_ = new DictTrie(dictPath, userDictPath);
@@ -39,22 +39,28 @@ class PosMPSegment: public SegmentBase {
     return dictTrie_->isUserDictSingleChineseWord(value);
   }
 
-  using SegmentBase::cut;
-  virtual bool cut(Unicode::const_iterator begin, Unicode::const_iterator end, vector<string>& res)const {
-    vector<Unicode> words;
-    words.reserve(end - begin);
-    if(!cut(begin, end, words)) {
+  using MultiSegmentBase::cut;
+  virtual bool cut(Unicode::const_iterator begin, Unicode::const_iterator end, vector<vector<string> >& vres)const {
+    vector<vector<Unicode> > vwords;
+	//vres.reserve(vwords.size());
+	//for_each(vwords.begin(), vwords.end(), [&](auto words) { words.reserve(end - begin); });
+    if(!cut(begin, end, vwords)) {
       return false;
     }
-    size_t offset = res.size();
-    res.resize(res.size() + words.size());
-    for(size_t i = 0; i < words.size(); i++) {
-      TransCode::encode(words[i], res[i + offset]);
-    }
+	vres.resize(vwords.size());
+	
+	for (int w = 0; w < vres.size() || w < vwords.size(); w++) {
+		size_t offset = vres[w].size();
+		vres[w].resize(vres[w].size() + vwords[w].size());
+		for (size_t i = 0; i < vwords[w].size(); i++) {
+			TransCode::encode(vwords[w][i], vres[w][i + offset]);
+		}
+	}
     return true;
   }
 
-  bool cut(Unicode::const_iterator begin , Unicode::const_iterator end, vector<Unicode>& res) const {
+  bool cut(Unicode::const_iterator begin , Unicode::const_iterator end, vector<vector<Unicode> >& vres) const {
+	vector<Unicode> res;
     vector<SegmentChar> segmentChars;
 
     dictTrie_->find(begin, end, segmentChars);
@@ -63,6 +69,8 @@ class PosMPSegment: public SegmentBase {
 
     cut_(segmentChars, res);
 
+	for (int i = 0; i < 5; i++)
+		vres.push_back(res);
     return true;
   }
   const DictTrie* getDictTrie() const {

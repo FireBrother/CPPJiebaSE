@@ -34,55 +34,59 @@ class PosTagger {
   ~PosTagger() {
   }
 #ifdef POSMIXSEG
-  bool tag(const string& src, vector<pair<string, string> >& res) const {
-	  vector<string> cutRes;
-	  if (!segment_.cut(src, cutRes)) {
+  bool tag(const string& src, vector<vector<pair<string, string> > >& vres) const {
+	  vector<vector<string> > vcutRes;
+	  if (!segment_.cut(src, vcutRes)) {
 		  LogError("mixSegment_ cut failed");
 		  return false;
 	  }
 
-	  const DictUnit *tmp = NULL;
-	  Unicode unico;
-	  const DictTrie * dict = segment_.getDictTrie();
-	  assert(dict != NULL);
-	  string POSbyHMM = "";
-	  vector<string> v;
-	  bool is_space_char = 0;
-	  for (vector<string>::iterator itr = cutRes.begin(); itr != cutRes.end(); ++itr) {
-		  if (*itr == " ") {
-			  // is_space_char = 1;
-			  continue;
-		  }
-		  // if (is_space_char) {
-		  //     is_space_char = 0;
-		  //     continue;
-		  // }
-		  if (POSbyHMM != "") {
-			  res.push_back(make_pair(*itr, POSbyHMM));
-			  POSbyHMM = "";
-		  }
-		  else {
-			  if (startsWith(*itr, "by Hmm")) {
-				  split(*itr, v, ":");
-				  POSbyHMM = v[1];
+	  vres.resize(vcutRes.size());
+
+	  for (int w = 0; w < vcutRes.size(); w++) {
+		  const DictUnit *tmp = NULL;
+		  Unicode unico;
+		  const DictTrie * dict = segment_.getDictTrie();
+		  assert(dict != NULL);
+		  string POSbyHMM = "";
+		  vector<string> v;
+		  bool is_space_char = 0;
+		  for (vector<string>::iterator itr = vcutRes[w].begin(); itr != vcutRes[w].end(); ++itr) {
+			  if (*itr == " ") {
+				  // is_space_char = 1;
+				  continue;
+			  }
+			  // if (is_space_char) {
+			  //     is_space_char = 0;
+			  //     continue;
+			  // }
+			  if (POSbyHMM != "") {
+				  vres[w].push_back(make_pair(*itr, POSbyHMM));
+				  POSbyHMM = "";
 			  }
 			  else {
-				  if (!TransCode::decode(*itr, unico)) {
-					  LogError("decode failed.");
-					  return false;
-				  }
-				  tmp = dict->find(unico.begin(), unico.end());
-				  if (tmp == NULL || tmp->tag.empty()) {
-					  res.push_back(make_pair(*itr, specialRule_(unico)));
+				  if (startsWith(*itr, "by Hmm")) {
+					  split(*itr, v, ":");
+					  POSbyHMM = v[1];
 				  }
 				  else {
-					  res.push_back(make_pair(*itr, tmp->tag));
+					  if (!TransCode::decode(*itr, unico)) {
+						  LogError("decode failed.");
+						  return false;
+					  }
+					  tmp = dict->find(unico.begin(), unico.end());
+					  if (tmp == NULL || tmp->tag.empty()) {
+						  vres[w].push_back(make_pair(*itr, specialRule_(unico)));
+					  }
+					  else {
+						  vres[w].push_back(make_pair(*itr, tmp->tag));
+					  }
 				  }
 			  }
+
 		  }
-		  
 	  }
-	  return !res.empty();
+	  return !vres.empty();
   }
 #else
   bool tag(const string& src, vector<pair<string, string> >& res) const {

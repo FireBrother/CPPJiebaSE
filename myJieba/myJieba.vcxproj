@@ -18,6 +18,7 @@
     <ProjectGuid>{7E2BCE5B-77B8-4C96-825B-B3E5FF572B6E}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>myJieba</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -36,7 +37,7 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug for Release|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>false</UseDebugLibraries>
-    <PlatformToolset>v110</PlatformToolset>
+    <PlatformToolset>v140</PlatformToolset>
     <WholeProgramOptimization>true</WholeProgramOptimization>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
@@ -118,6 +119,8 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="myExt\EncodingAdapter.hpp" />
+    <ClInclude Include="myExt\MultiISegment.hpp" />
+    <ClInclude Include="myExt\MultiSegmentBase.hpp" />
     <ClInclude Include="myExt\PosHMMModel.hpp" />
     <ClInclude Include="myExt\PosHMMSegment.hpp" />
     <ClInclude Include="myExt\PosMixSegment.hpp" />
