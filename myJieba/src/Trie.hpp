@@ -35,6 +35,23 @@ struct SegmentChar {
   }
 };
 
+struct MultiSegmentChar {
+	static const int K = 5;
+	uint16_t uniCh;
+	DagType dag;
+	const DictUnit * pInfo[K];
+	double weight;
+	size_t nextPos;
+	MultiSegmentChar() :uniCh(0), weight(0.0), nextPos(0) {
+		for (auto &p : pInfo) p = NULL;
+	}
+	MultiSegmentChar(const SegmentChar& sc): uniCh(sc.uniCh), weight(sc.weight), nextPos(sc.nextPos), dag(sc.dag){
+		for (auto &p : pInfo) p = NULL;
+	}
+	~MultiSegmentChar() {
+	}
+};
+
 typedef Unicode::value_type TrieKey;
 
 class TrieNode {

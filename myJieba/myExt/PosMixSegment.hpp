@@ -53,6 +53,8 @@ public:
 	buff.reserve(end - begin);
 	for (int w = 0; w < vwords.size(); w++) {
 		for (size_t i = 0, j = 0; i < vwords[w].size(); i++) {
+			//vres[w].push_back(vwords[w][i]);
+			//continue;
 			//if mp get a word, it's ok, put it into result
 			if (1 != vwords[w][i].size() || (vwords[w][i].size() == 1 && mpSeg_.isUserDictSingleChineseWord(vwords[w][i][0]))) {
 				vres[w].push_back(vwords[w][i]);
