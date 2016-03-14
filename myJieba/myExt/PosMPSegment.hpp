@@ -68,10 +68,12 @@ namespace CppJieba {
 			for (auto sc : segmentChars)
 				multiSegmentChars.push_back(MultiSegmentChar(sc));
 
+			calcDP_(segmentChars);
 			calcDP_(multiSegmentChars);
 
+			cut_(segmentChars, res);
 			cut_(multiSegmentChars, vres);
-
+			vres.push_back(res);
 			return true;
 		}
 		const DictTrie* getDictTrie() const {
@@ -108,6 +110,7 @@ namespace CppJieba {
 					}
 				}
 			}
+			cout << "the best weight is " << val << endl;
 		}
 		void cut_(const vector<SegmentChar>& segmentChars,
 			vector<Unicode>& res) const {
@@ -137,33 +140,32 @@ namespace CppJieba {
 			}
 		}
 
-  struct tuple{size_t u; size_t prev; double w; tuple(size_t _u, size_t _prev, double _w) :u(_u), prev(_prev), w(_w) {} };
-  class cmp { public: bool operator () (const tuple&a, const tuple&b) { return a.w < b.w; } };
+  struct tuple{size_t u; const tuple* prev; double w; tuple(size_t _u, const tuple* _prev, double _w) :u(_u), prev(_prev), w(_w) {} };
+  class cmp { public: bool operator () (const tuple*a, const tuple*b) { return a->w < b->w; } };
   void calcDP_(vector<MultiSegmentChar>& multiSegmentChars) const {
 	  int k = 0;
-	  priority_queue < tuple, deque<tuple>, cmp> pq;
+	  priority_queue < tuple*, deque<tuple*>, cmp> pq;
 	  vector<double> dis;
-	  vector<size_t> prev;
 	  dis.resize(multiSegmentChars.size()+1);
-	  prev.resize(multiSegmentChars.size()+1);
 	  for (int i = 0; i < multiSegmentChars.size(); i++)
 		  dis[i] = -100000000;
-	  pq.push(tuple(0, 0, 0));
+	  pq.push(new tuple(0, NULL, 0));
 	  while (!pq.empty() && k < MultiSegmentChar::K) {
 		  set<size_t> unique;
-		  size_t u = pq.top().u;
-		  dis[u] = pq.top().w;
-		  prev[u] = pq.top().prev;
+		  const tuple *now = pq.top();
+		  size_t u = pq.top()->u;
+		  dis[u] = pq.top()->w;
+		  const tuple* prev = pq.top()->prev;
 		  pq.pop();
 		  if (u == multiSegmentChars.size()) {
 			  cout << "find the a path of weight " << dis[u] << endl;
 			  size_t t = multiSegmentChars.size();
-			  while (t != 0) {
-				  size_t s = prev[t];
-				  for (DagType::const_iterator it = multiSegmentChars[s].dag.begin(); it != multiSegmentChars[s].dag.end(); it++) {
+			  while (prev && t != 0) {
+				  for (DagType::const_iterator it = multiSegmentChars[prev->u].dag.begin(); it != multiSegmentChars[prev->u].dag.end(); it++) {
 					  if (it->first == t - 1) {
-						  t = s;
-						  multiSegmentChars[s].pInfo[k] = it->second;
+						  t = prev->u;
+						  prev = prev->prev;
+						  multiSegmentChars[t].pInfo[k] = it->second;
 						  break;
 					  }
 				  }
@@ -189,7 +191,8 @@ namespace CppJieba {
 			  else {
 				  val += dictTrie_->getMinWeight();
 			  }
-			  pq.push(tuple(nextPos, u, dis[u] + val));
+			  tuple *tmp = new tuple(nextPos, now, dis[u] + val);
+			  pq.push(tmp);
 		  }
 	  }
   }
