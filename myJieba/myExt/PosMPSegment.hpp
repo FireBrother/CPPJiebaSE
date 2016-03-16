@@ -144,12 +144,15 @@ namespace CppJieba {
   class cmp { public: bool operator () (const tuple*a, const tuple*b) { return a->w < b->w; } };
   void calcDP_(vector<MultiSegmentChar>& multiSegmentChars) const {
 	  int k = 0;
-	  priority_queue < tuple*, deque<tuple*>, cmp> pq;
+	  vector<tuple*> del_vec;
+	  priority_queue<tuple*, deque<tuple*>, cmp> pq;
 	  vector<double> dis;
 	  dis.resize(multiSegmentChars.size()+1);
 	  for (int i = 0; i < multiSegmentChars.size(); i++)
 		  dis[i] = -100000000;
-	  pq.push(new tuple(0, NULL, 0));
+	  tuple* tmp = new tuple(0, NULL, 0);
+	  pq.push(tmp);
+	  del_vec.push_back(tmp);
 	  while (!pq.empty() && k < MultiSegmentChar::K) {
 		  set<size_t> unique;
 		  const tuple *now = pq.top();
@@ -193,7 +196,11 @@ namespace CppJieba {
 			  }
 			  tuple *tmp = new tuple(nextPos, now, dis[u] + val);
 			  pq.push(tmp);
+			  del_vec.push_back(tmp);
 		  }
+	  }
+	  for (auto p : del_vec) {
+		  delete p;
 	  }
   }
 
